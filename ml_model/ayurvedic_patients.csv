@@ -1,0 +1,501 @@
+Age,Gender,Disease,Dominant_Dosha,Lifestyle,Stress_Level,Severity_Score,Recommended_Therapy
+56,Female,Diabetes,Kapha,Active,Medium,5,Yoga Therapy
+41,Male,Digestive Issues,Pitta,Active,Low,8,Diet Correction
+47,Female,Insomnia,Vata,Sedentary,Medium,5,Shirodhara
+66,Male,Back Pain,Vata,Active,High,3,Panchakarma
+68,Male,Stress,Pitta,Active,Low,9,Meditation
+67,Female,Migraine,Vata,Sedentary,Low,10,Abhyanga
+61,Male,Diabetes,Kapha,Moderate,Medium,3,Herbal Therapy
+23,Female,Back Pain,Vata,Moderate,Low,4,Kizhi
+27,Female,Digestive Issues,Pitta,Moderate,Low,8,Virechana
+33,Male,Insomnia,Vata,Moderate,High,5,Shirodhara
+58,Male,Anxiety,Vata,Active,Medium,9,Meditation
+28,Male,Anxiety,Vata,Active,Medium,8,Abhyanga
+56,Female,Migraine,Vata,Sedentary,Medium,7,Abhyanga
+40,Female,Diabetes,Kapha,Active,Medium,5,Yoga Therapy
+18,Male,Stress,Pitta,Sedentary,Medium,3,Meditation
+56,Male,Migraine,Vata,Moderate,Medium,10,Abhyanga
+66,Female,Digestive Issues,Pitta,Active,Medium,5,Virechana
+53,Male,Obesity,Kapha,Moderate,High,3,Virechana
+23,Female,Digestive Issues,Pitta,Active,High,10,Virechana
+18,Male,Migraine,Vata,Sedentary,High,4,Abhyanga
+26,Female,Stress,Pitta,Active,Low,1,Abhyanga
+49,Female,Diabetes,Kapha,Sedentary,Low,9,Herbal Therapy
+56,Female,Joint Pain,Vata,Sedentary,Low,1,Panchakarma
+19,Female,Skin Disorders,Pitta,Sedentary,Medium,7,Herbal Therapy
+19,Male,Back Pain,Vata,Active,Medium,6,Abhyanga
+34,Male,Skin Disorders,Pitta,Sedentary,Medium,8,Detox Therapy
+65,Female,Anxiety,Vata,Active,Low,9,Meditation
+53,Male,Back Pain,Vata,Active,Low,3,Panchakarma
+50,Female,Obesity,Kapha,Sedentary,Medium,2,Virechana
+40,Male,Back Pain,Vata,Active,Medium,3,Panchakarma
+69,Female,Anxiety,Vata,Sedentary,Low,2,Nasya
+49,Male,Obesity,Kapha,Sedentary,Medium,9,Diet Correction
+37,Female,Skin Disorders,Pitta,Sedentary,Medium,8,Herbal Therapy
+57,Female,Joint Pain,Vata,Active,High,9,Kizhi
+35,Female,Skin Disorders,Pitta,Sedentary,Low,3,Vamana
+31,Male,Digestive Issues,Pitta,Active,Medium,8,Diet Correction
+68,Female,Obesity,Kapha,Moderate,Medium,6,Udwarthanam
+25,Male,Insomnia,Vata,Moderate,Medium,5,Shirodhara
+22,Female,Joint Pain,Vata,Active,Medium,4,Kizhi
+46,Female,Stress,Pitta,Active,Medium,6,Kizhi
+66,Female,Stress,Pitta,Sedentary,Low,3,Abhyanga
+50,Female,Joint Pain,Vata,Sedentary,Medium,2,Abhyanga
+57,Female,Diabetes,Kapha,Active,High,2,Yoga Therapy
+59,Female,Back Pain,Vata,Sedentary,Low,1,Abhyanga
+46,Female,Obesity,Kapha,Active,Low,10,Virechana
+24,Male,Digestive Issues,Pitta,Sedentary,Low,4,Herbal Therapy
+29,Male,Obesity,Kapha,Moderate,Medium,2,Diet Correction
+42,Female,Skin Disorders,Pitta,Moderate,Low,10,Herbal Therapy
+32,Female,Stress,Pitta,Sedentary,Low,1,Panchakarma
+21,Female,Digestive Issues,Pitta,Active,Low,3,Herbal Therapy
+59,Female,Joint Pain,Vata,Active,Medium,1,Kizhi
+54,Female,Stress,Pitta,Active,Medium,7,Meditation
+18,Male,Insomnia,Vata,Sedentary,Medium,6,Shirodhara
+56,Female,Stress,Pitta,Sedentary,Medium,6,Abhyanga
+54,Female,Migraine,Vata,Active,Low,5,Virechana
+22,Female,Back Pain,Vata,Sedentary,Medium,10,Kizhi
+54,Male,Back Pain,Vata,Moderate,Medium,10,Abhyanga
+27,Female,Joint Pain,Vata,Sedentary,Medium,10,Abhyanga
+19,Male,Digestive Issues,Pitta,Moderate,Medium,8,Virechana
+68,Male,Stress,Pitta,Sedentary,High,3,Diet Correction
+46,Male,Insomnia,Vata,Moderate,Medium,3,Shirodhara
+43,Female,Back Pain,Vata,Active,Low,2,Panchakarma
+67,Male,Diabetes,Kapha,Sedentary,High,4,Herbal Therapy
+54,Male,Diabetes,Kapha,Sedentary,Medium,3,Vamana
+56,Female,Diabetes,Kapha,Moderate,Medium,7,Yoga Therapy
+30,Male,Migraine,Vata,Sedentary,Medium,3,Nasya
+39,Male,Joint Pain,Vata,Sedentary,High,1,Abhyanga
+45,Female,Digestive Issues,Pitta,Moderate,Medium,3,Diet Correction
+29,Male,Digestive Issues,Pitta,Sedentary,Medium,5,Virechana
+59,Female,Obesity,Kapha,Sedentary,Medium,10,Diet Correction
+35,Male,Migraine,Vata,Moderate,Medium,10,Abhyanga
+63,Male,Diabetes,Kapha,Sedentary,High,10,Vamana
+46,Male,Skin Disorders,Pitta,Sedentary,Medium,3,Detox Therapy
+24,Male,Digestive Issues,Pitta,Moderate,Medium,4,Herbal Therapy
+56,Male,Back Pain,Vata,Active,Low,10,Panchakarma
+67,Female,Back Pain,Vata,Sedentary,High,4,Abhyanga
+30,Female,Migraine,Vata,Sedentary,High,1,Shirodhara
+61,Male,Stress,Pitta,Sedentary,High,6,Abhyanga
+36,Female,Migraine,Vata,Active,Medium,2,Abhyanga
+18,Male,Skin Disorders,Pitta,Active,High,6,Herbal Therapy
+49,Female,Diabetes,Kapha,Sedentary,Low,6,Herbal Therapy
+25,Female,Insomnia,Vata,Sedentary,Low,5,Yoga Therapy
+34,Male,Anxiety,Vata,Sedentary,Medium,5,Abhyanga
+52,Male,Skin Disorders,Pitta,Active,Medium,2,Herbal Therapy
+27,Female,Insomnia,Vata,Active,Medium,5,Nasya
+49,Male,Anxiety,Vata,Moderate,Medium,5,Abhyanga
+66,Male,Anxiety,Vata,Sedentary,Medium,2,Meditation
+23,Female,Anxiety,Vata,Active,Medium,5,Herbal Therapy
+54,Male,Stress,Pitta,Moderate,Medium,10,Shirodhara
+63,Male,Joint Pain,Vata,Moderate,High,4,Kizhi
+45,Male,Diabetes,Kapha,Moderate,Medium,7,Yoga Therapy
+67,Female,Anxiety,Vata,Sedentary,Low,6,Shirodhara
+65,Male,Obesity,Kapha,Sedentary,Medium,5,Diet Correction
+55,Female,Insomnia,Vata,Moderate,Medium,6,Yoga Therapy
+68,Male,Insomnia,Vata,Sedentary,Medium,4,Nasya
+59,Male,Anxiety,Vata,Sedentary,Low,5,Virechana
+34,Female,Digestive Issues,Pitta,Sedentary,High,8,Virechana
+60,Male,Joint Pain,Vata,Active,Low,9,Kizhi
+33,Female,Digestive Issues,Pitta,Sedentary,High,8,Virechana
+49,Female,Back Pain,Vata,Active,High,3,Kizhi
+39,Male,Skin Disorders,Pitta,Sedentary,Medium,1,Herbal Therapy
+66,Female,Back Pain,Vata,Moderate,Medium,9,Abhyanga
+47,Male,Anxiety,Vata,Sedentary,Low,10,Meditation
+64,Male,Diabetes,Kapha,Moderate,Medium,6,Herbal Therapy
+62,Female,Diabetes,Kapha,Active,Medium,3,Yoga Therapy
+64,Female,Insomnia,Vata,Moderate,Medium,10,Shirodhara
+54,Female,Back Pain,Vata,Sedentary,High,7,Kizhi
+61,Male,Anxiety,Vata,Sedentary,Medium,4,Shirodhara
+35,Male,Digestive Issues,Pitta,Moderate,Medium,6,Diet Correction
+59,Male,Stress,Pitta,Moderate,Medium,6,Abhyanga
+62,Female,Stress,Pitta,Sedentary,Low,9,Meditation
+65,Female,Diabetes,Kapha,Sedentary,Low,7,Vamana
+53,Female,Skin Disorders,Pitta,Active,High,2,Vamana
+47,Female,Skin Disorders,Pitta,Moderate,High,3,Herbal Therapy
+68,Male,Stress,Pitta,Moderate,Medium,6,Shirodhara
+37,Male,Anxiety,Vata,Moderate,Low,10,Meditation
+53,Male,Joint Pain,Vata,Moderate,Medium,1,Abhyanga
+27,Female,Insomnia,Vata,Moderate,Low,8,Shirodhara
+34,Male,Diabetes,Kapha,Active,Medium,6,Vamana
+61,Female,Stress,Pitta,Active,High,8,Abhyanga
+18,Female,Skin Disorders,Pitta,Active,Medium,8,Herbal Therapy
+52,Male,Stress,Pitta,Active,Medium,5,Shirodhara
+62,Female,Migraine,Vata,Active,Medium,2,Kizhi
+55,Male,Obesity,Kapha,Sedentary,Medium,1,Virechana
+31,Male,Diabetes,Kapha,Active,Medium,8,Yoga Therapy
+24,Male,Diabetes,Kapha,Active,High,10,Herbal Therapy
+56,Male,Digestive Issues,Pitta,Sedentary,Medium,6,Diet Correction
+50,Female,Digestive Issues,Pitta,Moderate,Medium,6,Shirodhara
+55,Male,Digestive Issues,Pitta,Active,Medium,8,Diet Correction
+21,Female,Insomnia,Vata,Active,Medium,3,Yoga Therapy
+22,Female,Back Pain,Vata,Moderate,Low,8,Kizhi
+63,Male,Back Pain,Vata,Moderate,Low,8,Abhyanga
+29,Female,Digestive Issues,Pitta,Sedentary,High,4,Herbal Therapy
+66,Female,Back Pain,Vata,Moderate,Low,9,Panchakarma
+39,Male,Obesity,Kapha,Moderate,Low,1,Virechana
+40,Male,Anxiety,Vata,Active,Low,6,Meditation
+26,Male,Migraine,Vata,Sedentary,Low,10,Abhyanga
+69,Male,Back Pain,Vata,Moderate,Medium,6,Abhyanga
+34,Female,Joint Pain,Vata,Sedentary,Medium,6,Panchakarma
+66,Male,Skin Disorders,Pitta,Moderate,Medium,10,Vamana
+66,Female,Skin Disorders,Pitta,Active,High,6,Vamana
+49,Male,Obesity,Kapha,Active,Medium,3,Virechana
+46,Male,Diabetes,Kapha,Moderate,Low,3,Herbal Therapy
+19,Female,Anxiety,Vata,Moderate,Medium,2,Shirodhara
+25,Male,Obesity,Kapha,Active,Medium,7,Virechana
+51,Female,Anxiety,Vata,Active,Low,7,Shirodhara
+25,Male,Migraine,Vata,Active,Low,7,Nasya
+25,Female,Migraine,Vata,Active,High,5,Shirodhara
+52,Female,Diabetes,Kapha,Moderate,High,8,Vamana
+38,Female,Obesity,Kapha,Active,Medium,2,Udwarthanam
+36,Female,Joint Pain,Vata,Sedentary,Medium,4,Abhyanga
+22,Female,Back Pain,Vata,Active,Medium,2,Panchakarma
+54,Female,Migraine,Vata,Sedentary,Low,2,Vamana
+61,Female,Anxiety,Vata,Moderate,Medium,10,Herbal Therapy
+67,Male,Anxiety,Vata,Moderate,Medium,9,Abhyanga
+39,Male,Digestive Issues,Pitta,Moderate,High,10,Virechana
+28,Female,Insomnia,Vata,Moderate,Medium,5,Shirodhara
+54,Male,Skin Disorders,Pitta,Active,Low,10,Detox Therapy
+48,Female,Diabetes,Kapha,Sedentary,Medium,2,Vamana
+34,Female,Stress,Pitta,Moderate,Low,10,Abhyanga
+18,Male,Stress,Pitta,Active,Low,4,Abhyanga
+53,Male,Obesity,Kapha,Active,High,8,Virechana
+39,Male,Diabetes,Kapha,Moderate,Low,1,Yoga Therapy
+69,Male,Anxiety,Vata,Sedentary,Medium,2,Shirodhara
+57,Male,Anxiety,Vata,Sedentary,Medium,9,Meditation
+52,Male,Insomnia,Vata,Active,Low,5,Yoga Therapy
+54,Female,Anxiety,Vata,Moderate,Medium,1,Abhyanga
+33,Female,Joint Pain,Vata,Active,High,8,Kizhi
+33,Female,Diabetes,Kapha,Moderate,Medium,9,Herbal Therapy
+58,Male,Back Pain,Vata,Active,High,10,Kizhi
+24,Female,Stress,Pitta,Sedentary,Low,7,Abhyanga
+40,Male,Insomnia,Vata,Active,Medium,4,Yoga Therapy
+34,Female,Diabetes,Kapha,Sedentary,Low,3,Herbal Therapy
+40,Female,Obesity,Kapha,Sedentary,Medium,8,Udwarthanam
+35,Male,Back Pain,Vata,Active,Medium,2,Abhyanga
+30,Male,Insomnia,Vata,Active,High,3,Nasya
+66,Male,Stress,Pitta,Active,Medium,9,Abhyanga
+56,Female,Stress,Pitta,Moderate,Low,1,Meditation
+67,Female,Insomnia,Vata,Sedentary,Low,5,Abhyanga
+26,Male,Anxiety,Vata,Active,High,9,Meditation
+23,Male,Diabetes,Kapha,Active,High,8,Panchakarma
+69,Female,Diabetes,Kapha,Sedentary,Medium,4,Vamana
+63,Female,Insomnia,Vata,Moderate,Low,9,Yoga Therapy
+23,Male,Stress,Pitta,Active,Low,6,Meditation
+66,Male,Back Pain,Vata,Moderate,Medium,3,Meditation
+49,Male,Skin Disorders,Pitta,Sedentary,Medium,8,Herbal Therapy
+54,Female,Migraine,Vata,Active,Low,8,Abhyanga
+42,Female,Back Pain,Vata,Active,Medium,9,Abhyanga
+51,Female,Skin Disorders,Pitta,Active,Medium,8,Herbal Therapy
+54,Female,Stress,Pitta,Moderate,Medium,1,Shirodhara
+68,Female,Joint Pain,Vata,Moderate,Medium,8,Shirodhara
+23,Female,Joint Pain,Vata,Sedentary,Low,8,Panchakarma
+60,Male,Migraine,Vata,Moderate,Low,5,Abhyanga
+22,Male,Back Pain,Vata,Active,High,9,Abhyanga
+47,Male,Insomnia,Vata,Moderate,High,4,Yoga Therapy
+19,Female,Anxiety,Vata,Sedentary,Low,9,Shirodhara
+52,Female,Skin Disorders,Pitta,Moderate,Low,3,Herbal Therapy
+45,Female,Stress,Pitta,Moderate,High,6,Meditation
+34,Female,Skin Disorders,Pitta,Moderate,Medium,1,Herbal Therapy
+31,Female,Digestive Issues,Pitta,Sedentary,Medium,3,Virechana
+23,Male,Joint Pain,Vata,Active,Medium,10,Panchakarma
+21,Male,Joint Pain,Vata,Active,Medium,9,Abhyanga
+69,Female,Insomnia,Vata,Moderate,Low,4,Abhyanga
+61,Female,Stress,Pitta,Active,High,5,Shirodhara
+20,Male,Anxiety,Vata,Moderate,Low,10,Shirodhara
+42,Female,Insomnia,Vata,Moderate,Low,8,Yoga Therapy
+44,Female,Insomnia,Vata,Active,Medium,4,Shirodhara
+41,Female,Back Pain,Vata,Moderate,Medium,3,Abhyanga
+34,Female,Digestive Issues,Pitta,Sedentary,Low,4,Diet Correction
+39,Female,Stress,Pitta,Moderate,Medium,5,Shirodhara
+34,Female,Stress,Pitta,Moderate,Medium,2,Abhyanga
+55,Female,Migraine,Vata,Moderate,High,1,Abhyanga
+41,Male,Anxiety,Vata,Moderate,Low,9,Abhyanga
+45,Female,Anxiety,Vata,Moderate,Medium,10,Shirodhara
+58,Male,Anxiety,Vata,Moderate,Medium,4,Meditation
+43,Female,Back Pain,Vata,Active,Low,2,Panchakarma
+57,Male,Joint Pain,Vata,Sedentary,High,6,Panchakarma
+67,Female,Diabetes,Kapha,Moderate,Medium,8,Yoga Therapy
+24,Male,Digestive Issues,Pitta,Moderate,High,4,Diet Correction
+58,Female,Back Pain,Vata,Moderate,Medium,2,Panchakarma
+62,Male,Back Pain,Vata,Active,Medium,3,Panchakarma
+49,Male,Insomnia,Vata,Moderate,Medium,6,Shirodhara
+20,Female,Back Pain,Vata,Active,Low,3,Abhyanga
+50,Male,Anxiety,Vata,Active,Medium,5,Shirodhara
+21,Female,Digestive Issues,Pitta,Moderate,High,8,Herbal Therapy
+51,Female,Digestive Issues,Pitta,Active,High,2,Herbal Therapy
+68,Male,Back Pain,Vata,Sedentary,Low,6,Panchakarma
+32,Male,Joint Pain,Vata,Moderate,Low,10,Kizhi
+19,Male,Stress,Pitta,Moderate,Medium,5,Shirodhara
+64,Female,Diabetes,Kapha,Sedentary,Medium,7,Vamana
+42,Male,Insomnia,Vata,Sedentary,Low,3,Shirodhara
+40,Male,Back Pain,Vata,Moderate,Low,3,Kizhi
+29,Female,Migraine,Vata,Sedentary,Low,1,Nasya
+37,Female,Migraine,Vata,Active,Medium,5,Nasya
+61,Female,Skin Disorders,Pitta,Moderate,High,4,Vamana
+37,Female,Anxiety,Vata,Active,Medium,7,Nasya
+50,Male,Joint Pain,Vata,Sedentary,Medium,10,Kizhi
+51,Male,Insomnia,Vata,Active,Medium,9,Nasya
+40,Female,Skin Disorders,Pitta,Active,Low,4,Herbal Therapy
+59,Female,Obesity,Kapha,Moderate,Low,8,Udwarthanam
+49,Female,Stress,Pitta,Active,Medium,6,Meditation
+60,Female,Insomnia,Vata,Sedentary,High,2,Herbal Therapy
+29,Male,Diabetes,Kapha,Moderate,High,9,Yoga Therapy
+33,Female,Stress,Pitta,Sedentary,Low,5,Meditation
+23,Male,Migraine,Vata,Sedentary,High,1,Nasya
+30,Male,Migraine,Vata,Moderate,Medium,4,Shirodhara
+36,Female,Insomnia,Vata,Sedentary,Medium,2,Yoga Therapy
+18,Female,Skin Disorders,Pitta,Sedentary,Medium,7,Herbal Therapy
+24,Male,Stress,Pitta,Sedentary,Medium,3,Shirodhara
+52,Female,Skin Disorders,Pitta,Active,Medium,10,Herbal Therapy
+19,Female,Migraine,Vata,Sedentary,High,3,Shirodhara
+45,Male,Back Pain,Vata,Sedentary,Medium,9,Abhyanga
+60,Female,Obesity,Kapha,Moderate,Medium,6,Shirodhara
+38,Male,Obesity,Kapha,Active,Low,5,Abhyanga
+21,Male,Skin Disorders,Pitta,Moderate,Low,3,Vamana
+69,Female,Joint Pain,Vata,Moderate,Medium,8,Panchakarma
+30,Female,Back Pain,Vata,Moderate,Low,9,Kizhi
+56,Male,Obesity,Kapha,Sedentary,Medium,8,Virechana
+24,Female,Anxiety,Vata,Sedentary,Medium,8,Herbal Therapy
+39,Female,Stress,Pitta,Sedentary,Medium,6,Meditation
+59,Female,Diabetes,Kapha,Moderate,Low,1,Yoga Therapy
+53,Female,Obesity,Kapha,Sedentary,Low,10,Udwarthanam
+67,Male,Anxiety,Vata,Moderate,Medium,3,Abhyanga
+65,Male,Joint Pain,Vata,Active,Low,7,Panchakarma
+42,Female,Joint Pain,Vata,Sedentary,Medium,7,Panchakarma
+56,Male,Anxiety,Vata,Moderate,Low,7,Abhyanga
+49,Male,Digestive Issues,Pitta,Sedentary,High,8,Virechana
+23,Male,Obesity,Kapha,Sedentary,Medium,4,Udwarthanam
+61,Male,Stress,Pitta,Moderate,Medium,8,Shirodhara
+20,Female,Skin Disorders,Pitta,Active,Medium,2,Detox Therapy
+51,Male,Digestive Issues,Pitta,Moderate,Medium,8,Shirodhara
+46,Male,Migraine,Vata,Moderate,Low,7,Nasya
+33,Female,Diabetes,Kapha,Active,High,4,Yoga Therapy
+57,Female,Stress,Pitta,Sedentary,High,4,Meditation
+39,Female,Diabetes,Kapha,Sedentary,Medium,7,Herbal Therapy
+31,Female,Anxiety,Vata,Moderate,Medium,7,Abhyanga
+44,Male,Migraine,Vata,Active,High,1,Shirodhara
+21,Female,Obesity,Kapha,Active,Medium,6,Udwarthanam
+69,Female,Anxiety,Vata,Moderate,High,10,Abhyanga
+47,Female,Skin Disorders,Pitta,Active,Medium,3,Vamana
+52,Female,Insomnia,Vata,Moderate,High,3,Nasya
+42,Female,Migraine,Vata,Sedentary,High,6,Shirodhara
+33,Female,Digestive Issues,Pitta,Active,Medium,3,Virechana
+51,Female,Stress,Pitta,Sedentary,Low,2,Shirodhara
+48,Female,Digestive Issues,Pitta,Sedentary,Low,2,Virechana
+60,Female,Insomnia,Vata,Active,Medium,7,Nasya
+27,Male,Insomnia,Vata,Sedentary,Medium,2,Yoga Therapy
+36,Male,Joint Pain,Vata,Sedentary,Medium,5,Abhyanga
+33,Female,Anxiety,Vata,Active,Low,4,Shirodhara
+69,Female,Skin Disorders,Pitta,Moderate,Low,7,Abhyanga
+52,Male,Skin Disorders,Pitta,Sedentary,Medium,7,Herbal Therapy
+19,Female,Stress,Pitta,Moderate,Low,6,Meditation
+56,Male,Anxiety,Vata,Moderate,Low,5,Detox Therapy
+54,Male,Digestive Issues,Pitta,Active,Low,1,Virechana
+69,Female,Obesity,Kapha,Moderate,Low,5,Vamana
+35,Female,Joint Pain,Vata,Sedentary,Medium,9,Panchakarma
+59,Male,Anxiety,Vata,Sedentary,Medium,9,Abhyanga
+65,Male,Anxiety,Vata,Moderate,Low,10,Diet Correction
+45,Male,Obesity,Kapha,Active,Medium,2,Udwarthanam
+40,Female,Joint Pain,Vata,Sedentary,Medium,5,Panchakarma
+40,Male,Anxiety,Vata,Active,Low,3,Diet Correction
+57,Female,Digestive Issues,Pitta,Active,High,4,Diet Correction
+60,Female,Stress,Pitta,Moderate,High,5,Meditation
+55,Male,Anxiety,Vata,Sedentary,High,8,Meditation
+66,Female,Digestive Issues,Pitta,Sedentary,High,9,Diet Correction
+67,Female,Stress,Pitta,Active,High,4,Shirodhara
+49,Male,Insomnia,Vata,Active,Low,10,Shirodhara
+42,Female,Back Pain,Vata,Moderate,High,9,Panchakarma
+61,Female,Joint Pain,Vata,Sedentary,Low,1,Abhyanga
+56,Male,Migraine,Vata,Sedentary,Medium,2,Shirodhara
+57,Female,Obesity,Kapha,Active,Medium,7,Udwarthanam
+39,Female,Insomnia,Vata,Sedentary,Medium,2,Nasya
+48,Male,Joint Pain,Vata,Sedentary,Medium,7,Panchakarma
+20,Male,Skin Disorders,Pitta,Active,Medium,3,Abhyanga
+42,Female,Stress,Pitta,Moderate,Medium,8,Shirodhara
+20,Male,Digestive Issues,Pitta,Active,Medium,8,Diet Correction
+42,Female,Stress,Pitta,Active,Low,7,Shirodhara
+26,Female,Digestive Issues,Pitta,Moderate,Medium,6,Virechana
+31,Female,Migraine,Vata,Sedentary,Medium,2,Abhyanga
+48,Male,Skin Disorders,Pitta,Active,High,8,Vamana
+21,Female,Back Pain,Vata,Moderate,Medium,8,Panchakarma
+57,Male,Stress,Pitta,Moderate,Low,10,Shirodhara
+37,Male,Obesity,Kapha,Sedentary,Medium,7,Virechana
+69,Female,Diabetes,Kapha,Moderate,Medium,8,Yoga Therapy
+66,Male,Joint Pain,Vata,Sedentary,Medium,6,Diet Correction
+48,Female,Joint Pain,Vata,Moderate,Medium,4,Kizhi
+69,Male,Migraine,Vata,Sedentary,Low,6,Abhyanga
+44,Male,Skin Disorders,Pitta,Sedentary,High,7,Vamana
+27,Female,Joint Pain,Vata,Moderate,High,1,Panchakarma
+62,Male,Stress,Pitta,Moderate,High,3,Shirodhara
+46,Female,Stress,Pitta,Sedentary,Medium,4,Shirodhara
+23,Female,Digestive Issues,Pitta,Active,Medium,7,Virechana
+53,Female,Migraine,Vata,Moderate,Medium,6,Abhyanga
+37,Female,Migraine,Vata,Sedentary,Low,4,Shirodhara
+39,Female,Obesity,Kapha,Active,High,3,Virechana
+48,Female,Migraine,Vata,Sedentary,Medium,6,Shirodhara
+60,Male,Stress,Pitta,Moderate,Medium,4,Abhyanga
+32,Female,Diabetes,Kapha,Active,High,4,Herbal Therapy
+61,Female,Migraine,Vata,Moderate,High,5,Abhyanga
+43,Male,Diabetes,Kapha,Active,Medium,1,Diet Correction
+58,Male,Insomnia,Vata,Active,Low,5,Herbal Therapy
+50,Male,Diabetes,Kapha,Moderate,Medium,2,Vamana
+34,Female,Skin Disorders,Pitta,Moderate,Medium,6,Herbal Therapy
+39,Female,Migraine,Vata,Moderate,Medium,2,Nasya
+56,Female,Diabetes,Kapha,Moderate,High,8,Yoga Therapy
+66,Female,Obesity,Kapha,Moderate,Medium,5,Virechana
+32,Female,Diabetes,Kapha,Active,High,5,Abhyanga
+58,Female,Back Pain,Vata,Sedentary,Low,10,Kizhi
+20,Female,Anxiety,Vata,Active,Low,10,Shirodhara
+67,Male,Joint Pain,Vata,Active,Low,5,Panchakarma
+53,Male,Stress,Pitta,Active,Medium,8,Meditation
+57,Female,Back Pain,Vata,Moderate,Medium,4,Abhyanga
+62,Male,Insomnia,Vata,Moderate,Low,8,Shirodhara
+49,Female,Stress,Pitta,Moderate,Medium,4,Shirodhara
+29,Male,Obesity,Kapha,Active,Medium,1,Virechana
+30,Female,Digestive Issues,Pitta,Moderate,Medium,6,Diet Correction
+22,Male,Joint Pain,Vata,Sedentary,High,1,Kizhi
+22,Male,Migraine,Vata,Moderate,Medium,4,Nasya
+28,Female,Migraine,Vata,Moderate,High,5,Abhyanga
+43,Female,Stress,Pitta,Moderate,Low,8,Meditation
+58,Male,Insomnia,Vata,Active,Medium,10,Nasya
+34,Male,Joint Pain,Vata,Sedentary,Medium,1,Abhyanga
+56,Female,Migraine,Vata,Sedentary,High,4,Abhyanga
+20,Female,Back Pain,Vata,Active,Medium,9,Abhyanga
+63,Female,Digestive Issues,Pitta,Active,High,1,Diet Correction
+35,Male,Anxiety,Vata,Active,Low,6,Abhyanga
+63,Female,Digestive Issues,Pitta,Moderate,Medium,5,Meditation
+37,Male,Migraine,Vata,Moderate,High,8,Nasya
+36,Female,Joint Pain,Vata,Moderate,Medium,3,Panchakarma
+24,Female,Migraine,Vata,Sedentary,Low,7,Meditation
+55,Male,Digestive Issues,Pitta,Sedentary,Low,8,Virechana
+31,Male,Stress,Pitta,Sedentary,Low,3,Abhyanga
+21,Female,Diabetes,Kapha,Sedentary,Medium,2,Yoga Therapy
+33,Male,Anxiety,Vata,Active,High,3,Diet Correction
+22,Female,Digestive Issues,Pitta,Active,Medium,5,Virechana
+26,Female,Joint Pain,Vata,Moderate,High,1,Panchakarma
+40,Male,Diabetes,Kapha,Moderate,Medium,6,Herbal Therapy
+69,Male,Skin Disorders,Pitta,Sedentary,Medium,8,Vamana
+68,Female,Obesity,Kapha,Moderate,Medium,7,Diet Correction
+19,Female,Insomnia,Vata,Sedentary,Medium,7,Nasya
+39,Male,Insomnia,Vata,Sedentary,Medium,1,Yoga Therapy
+59,Male,Migraine,Vata,Active,Low,1,Nasya
+37,Female,Anxiety,Vata,Sedentary,Low,6,Meditation
+37,Female,Anxiety,Vata,Active,High,10,Abhyanga
+59,Male,Skin Disorders,Pitta,Sedentary,High,9,Vamana
+41,Male,Joint Pain,Vata,Active,High,7,Abhyanga
+63,Male,Anxiety,Vata,Active,Medium,8,Diet Correction
+62,Female,Anxiety,Vata,Active,High,10,Shirodhara
+44,Female,Obesity,Kapha,Sedentary,Medium,7,Virechana
+21,Female,Anxiety,Vata,Moderate,Low,4,Shirodhara
+50,Female,Back Pain,Vata,Active,Medium,3,Panchakarma
+58,Female,Insomnia,Vata,Active,Medium,3,Yoga Therapy
+26,Male,Obesity,Kapha,Moderate,Low,3,Yoga Therapy
+20,Female,Diabetes,Kapha,Sedentary,Medium,2,Yoga Therapy
+18,Male,Back Pain,Vata,Sedentary,High,5,Panchakarma
+40,Female,Migraine,Vata,Sedentary,Medium,6,Abhyanga
+62,Male,Migraine,Vata,Moderate,Medium,5,Shirodhara
+49,Male,Joint Pain,Vata,Active,Low,9,Shirodhara
+53,Female,Anxiety,Vata,Active,Medium,8,Meditation
+21,Male,Diabetes,Kapha,Sedentary,High,1,Herbal Therapy
+35,Female,Joint Pain,Vata,Sedentary,Medium,1,Kizhi
+65,Female,Diabetes,Kapha,Sedentary,Low,6,Herbal Therapy
+22,Female,Diabetes,Kapha,Active,Medium,8,Herbal Therapy
+44,Female,Skin Disorders,Pitta,Active,Low,10,Detox Therapy
+47,Female,Stress,Pitta,Sedentary,Medium,10,Abhyanga
+40,Female,Digestive Issues,Pitta,Sedentary,High,2,Diet Correction
+69,Male,Skin Disorders,Pitta,Sedentary,Low,4,Herbal Therapy
+62,Female,Stress,Pitta,Active,Medium,7,Shirodhara
+68,Female,Anxiety,Vata,Moderate,Medium,5,Meditation
+56,Female,Joint Pain,Vata,Active,Low,1,Abhyanga
+51,Male,Digestive Issues,Pitta,Sedentary,High,3,Kizhi
+39,Male,Diabetes,Kapha,Active,Low,10,Vamana
+34,Male,Digestive Issues,Pitta,Active,Low,6,Herbal Therapy
+28,Female,Skin Disorders,Pitta,Moderate,Medium,5,Vamana
+37,Male,Back Pain,Vata,Sedentary,High,6,Kizhi
+53,Female,Anxiety,Vata,Active,Medium,8,Shirodhara
+68,Female,Anxiety,Vata,Sedentary,High,3,Meditation
+64,Male,Digestive Issues,Pitta,Sedentary,Medium,7,Kizhi
+69,Male,Anxiety,Vata,Sedentary,Low,1,Meditation
+55,Male,Stress,Pitta,Moderate,Medium,7,Abhyanga
+20,Female,Back Pain,Vata,Moderate,Medium,10,Panchakarma
+41,Male,Diabetes,Kapha,Moderate,Low,9,Kizhi
+43,Male,Diabetes,Kapha,Moderate,Low,7,Vamana
+54,Male,Stress,Pitta,Sedentary,High,8,Shirodhara
+53,Male,Insomnia,Vata,Active,Medium,8,Nasya
+48,Female,Joint Pain,Vata,Active,Medium,8,Kizhi
+62,Male,Joint Pain,Vata,Moderate,Low,6,Kizhi
+33,Female,Insomnia,Vata,Moderate,Medium,2,Nasya
+56,Male,Diabetes,Kapha,Moderate,Low,7,Herbal Therapy
+46,Male,Stress,Pitta,Sedentary,Medium,7,Shirodhara
+38,Male,Stress,Pitta,Sedentary,Medium,3,Abhyanga
+40,Female,Back Pain,Vata,Moderate,Low,10,Kizhi
+67,Female,Digestive Issues,Pitta,Active,Medium,5,Virechana
+40,Female,Insomnia,Vata,Active,Low,7,Nasya
+28,Male,Anxiety,Vata,Active,Low,9,Abhyanga
+49,Female,Skin Disorders,Pitta,Active,Medium,1,Herbal Therapy
+22,Female,Migraine,Vata,Sedentary,Low,9,Shirodhara
+61,Female,Digestive Issues,Pitta,Active,High,2,Herbal Therapy
+65,Female,Joint Pain,Vata,Sedentary,Medium,5,Panchakarma
+44,Male,Diabetes,Kapha,Moderate,Low,7,Yoga Therapy
+30,Male,Anxiety,Vata,Active,High,8,Abhyanga
+26,Male,Digestive Issues,Pitta,Active,Medium,3,Virechana
+65,Male,Migraine,Vata,Active,Low,3,Abhyanga
+61,Male,Obesity,Kapha,Sedentary,Medium,9,Diet Correction
+19,Female,Migraine,Vata,Moderate,Medium,9,Shirodhara
+53,Male,Obesity,Kapha,Sedentary,Low,2,Virechana
+20,Female,Skin Disorders,Pitta,Moderate,Low,5,Panchakarma
+60,Male,Migraine,Vata,Moderate,Medium,1,Abhyanga
+27,Female,Stress,Pitta,Moderate,Low,6,Meditation
+52,Male,Joint Pain,Vata,Sedentary,High,6,Panchakarma
+60,Male,Digestive Issues,Pitta,Moderate,Medium,10,Diet Correction
+34,Female,Back Pain,Vata,Sedentary,Low,6,Panchakarma
+51,Male,Skin Disorders,Pitta,Sedentary,Medium,7,Detox Therapy
+69,Male,Stress,Pitta,Sedentary,High,4,Shirodhara
+49,Male,Diabetes,Kapha,Active,Medium,1,Herbal Therapy
+21,Female,Joint Pain,Vata,Sedentary,Low,9,Abhyanga
+40,Female,Back Pain,Vata,Moderate,High,4,Kizhi
+28,Male,Skin Disorders,Pitta,Sedentary,Low,9,Herbal Therapy
+43,Male,Back Pain,Vata,Active,High,3,Abhyanga
+48,Female,Anxiety,Vata,Active,High,1,Shirodhara
+64,Male,Migraine,Vata,Moderate,Low,2,Nasya
+28,Female,Skin Disorders,Pitta,Moderate,Medium,1,Vamana
+38,Female,Stress,Pitta,Moderate,High,6,Meditation
+27,Female,Joint Pain,Vata,Sedentary,Medium,6,Diet Correction
+50,Male,Insomnia,Vata,Sedentary,Low,6,Vamana
+43,Female,Migraine,Vata,Sedentary,High,5,Shirodhara
+35,Female,Skin Disorders,Pitta,Active,Medium,4,Vamana
+60,Male,Stress,Pitta,Moderate,Medium,2,Meditation
+49,Female,Anxiety,Vata,Sedentary,Low,7,Abhyanga
+46,Female,Migraine,Vata,Moderate,Medium,5,Shirodhara
+60,Male,Diabetes,Kapha,Moderate,Medium,10,Herbal Therapy
+54,Male,Migraine,Vata,Sedentary,Low,3,Vamana
+44,Female,Joint Pain,Vata,Sedentary,Medium,1,Panchakarma
+47,Male,Joint Pain,Vata,Active,Medium,1,Kizhi
+62,Female,Digestive Issues,Pitta,Active,Medium,5,Virechana
+43,Male,Digestive Issues,Pitta,Active,Medium,4,Virechana
+22,Female,Anxiety,Vata,Moderate,High,1,Shirodhara
+21,Male,Diabetes,Kapha,Sedentary,Medium,3,Yoga Therapy
+62,Female,Obesity,Kapha,Active,High,7,Virechana
+21,Male,Back Pain,Vata,Active,Medium,4,Panchakarma
+65,Male,Obesity,Kapha,Active,Low,9,Nasya
+18,Male,Diabetes,Kapha,Active,Medium,8,Herbal Therapy
+21,Male,Insomnia,Vata,Sedentary,Medium,9,Yoga Therapy
+62,Male,Stress,Pitta,Sedentary,Medium,9,Meditation
+54,Male,Back Pain,Vata,Active,Low,8,Abhyanga
+68,Female,Digestive Issues,Pitta,Active,Medium,6,Virechana
+30,Male,Back Pain,Vata,Moderate,Medium,2,Abhyanga
+68,Female,Migraine,Vata,Active,Low,6,Shirodhara
+38,Female,Anxiety,Vata,Active,Medium,7,Abhyanga
+26,Male,Back Pain,Vata,Sedentary,Medium,6,Abhyanga
+42,Male,Stress,Pitta,Moderate,Medium,5,Abhyanga
+53,Male,Migraine,Vata,Moderate,Medium,8,Abhyanga
+23,Male,Obesity,Kapha,Active,High,10,Virechana
+58,Male,Migraine,Vata,Moderate,Medium,6,Nasya
+66,Female,Obesity,Kapha,Sedentary,Medium,1,Virechana
+66,Male,Digestive Issues,Pitta,Moderate,Medium,3,Kizhi
+21,Female,Joint Pain,Vata,Sedentary,Medium,6,Panchakarma
+18,Male,Skin Disorders,Pitta,Sedentary,High,8,Detox Therapy
+29,Female,Back Pain,Vata,Active,Medium,9,Kizhi
+68,Male,Stress,Pitta,Active,Medium,8,Detox Therapy

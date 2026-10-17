@@ -1,0 +1,13 @@
+README.md
+setup.py
+ayurveda_system/__init__.py
+ayurveda_system/data_generator.py
+ayurveda_system/main.py
+ayurveda_system/model.py
+ayurveda_system/preprocessor.py
+ayurveda_system/recommender.py
+ayurveda_system.egg-info/PKG-INFO
+ayurveda_system.egg-info/SOURCES.txt
+ayurveda_system.egg-info/dependency_links.txt
+ayurveda_system.egg-info/requires.txt
+ayurveda_system.egg-info/top_level.txt
