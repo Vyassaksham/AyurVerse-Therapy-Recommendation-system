@@ -1,0 +1,317 @@
+
+/* Patient Dashboard - cleaned and using global theme variables */
+
+.dashboard-container {
+  max-width: 1300px;
+  margin: 2rem auto;
+  padding: 0 1.5rem;
+  color: var(--text);
+}
+
+.dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
+.welcome-text {
+  font-size: 1rem;
+  color: var(--text-light);
+}
+
+.user-name {
+  font-size: 2rem;
+  font-weight: 600;
+  color: var(--text);
+}
+
+.user-email {
+  color: var(--text-light);
+  font-size: 0.9rem;
+}
+
+.profile-pic-container {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 2px solid var(--primary-green);
+}
+
+.profile-pic {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.main-content {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.left-column { flex: 1; }
+.right-column { flex: 1.4; }
+
+.card {
+  background: var(--card-bg);
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px var(--shadow-light);
+  border: 1px solid var(--border-color);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 25px var(--shadow-hover);
+}
+
+.top-cards-section {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.day-cell {
+  padding: 0.75rem;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 60px;
+  background: transparent;
+  transition: background-color 0.2s ease, transform 0.15s ease;
+}
+
+.day-cell:hover:not(.empty) { transform: scale(1.02); }
+
+.day-cell.scheduled {
+  background-color: var(--green-accent);
+  color: var(--primary-green);
+  font-weight: 600;
+  border: 1px solid rgba(96,165,250,0.18);
+}
+
+.card-content h3 { font-size: 1.2rem; margin-bottom: 0.5rem; color: var(--text); }
+.card-content p { color: var(--text-light); }
+
+.card-progress .progress-bar-container {
+  background-color: var(--light-bg);
+  border-radius: 5px;
+  height: 8px;
+  margin: 1rem 0;
+  overflow: hidden;
+}
+
+.progress-bar { height: 100%; background-color: var(--primary-green); border-radius: 5px; }
+.progress-percentage { font-weight: 600; color: var(--primary-green); }
+
+.card-book-slot select,
+.card-book-slot input[type="date"],
+.card-book-slot input[type="datetime-local"] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid var(--border-color);
+  border-radius: 6px;
+  background: rgba(255,255,255,0.01);
+  color: var(--text);
+}
+
+.available-slots-section h4 { font-size: 1rem; font-weight: 600; color: var(--text); }
+
+.slot-list { list-style: none; padding: 0; margin: 0; }
+.slot-item { padding: 10px; margin-bottom: 8px; background: var(--light-bg); border: 1px solid var(--border-color); border-radius: 6px; display:flex; justify-content:space-between; align-items:center; }
+.slot-item:hover { background: var(--green-accent); }
+.slot-item span { font-size: 0.9rem; color: var(--text); }
+
+.appointments-list-section h4 { font-size: 1rem; font-weight: 600; color: var(--text); }
+.appointment-item { padding: 12px; margin-bottom: 8px; background: var(--light-bg); border: 1px solid var(--border-color); border-radius: 6px; }
+.appointment-item p { margin: 0; font-size: 0.9rem; color: var(--text); }
+
+.status { font-weight: 600; padding: 2px 6px; border-radius: 4px; font-size: 0.8rem; }
+.status-booked { background: var(--green-accent); color: var(--primary-green); }
+.status-completed { background: rgba(96,165,250,0.06); color: var(--primary-green); }
+.status-cancelled { background: rgba(255,230,230,1); color: #f44336; }
+
+.time-slots { display:flex; flex-wrap:wrap; gap:10px; margin-bottom:15px; }
+.time-slot { padding:10px 15px; border:1px solid var(--border-color); border-radius:6px; cursor:pointer; }
+.time-slot.selected { background: var(--primary-green); color: white; }
+
+.btn-primary { background: var(--primary-green); color: white; border: none; padding: 0.6rem 1rem; border-radius: 6px; cursor: pointer; }
+.btn-primary:hover { filter: brightness(0.95); }
+
+.btn-reschedule { background: var(--primary-orange); color: white; border:none; padding:4px 8px; border-radius:4px; }
+.btn-cancel { background: var(--danger); color:white; border:none; padding:4px 8px; border-radius:4px; }
+
+.success-message { display:flex; align-items:center; gap:0.5rem; padding:0.8rem 1rem; border-radius:8px; background-color: rgba(96,165,250,0.06); color: var(--primary-green); }
+
+/* Modal */
+.modal-overlay { position:fixed; inset:0; display:flex; justify-content:center; align-items:center; background: rgba(0,0,0,0.5); z-index:1000; }
+.modal-content { background: var(--card-bg); border-radius:12px; width:90%; max-width:500px; padding:1rem; box-shadow: 0 10px 30px rgba(0,0,0,0.3); }
+
+@media (max-width: 1024px) {
+  .top-cards-section { flex-direction: column; }
+  .main-content { flex-direction: column; }
+}
+
+@media (max-width: 768px) {
+  .dashboard-header { flex-direction: column; align-items:flex-start; gap:1rem; }
+  .profile-pic-container { display: none; }
+  .day-cell { min-height: 40px; font-size: 0.8rem; }
+  .slot-item { flex-direction: column; gap:8px; text-align:center; }
+}
+
+.slot-block { margin-bottom: 1rem; padding: 1rem; border: 1px solid var(--border-color); border-radius: 8px; }
+.interval-buttons { display:flex; gap:0.5rem; flex-wrap:wrap; margin-top:0.5rem; }
+.btn-book-interval { padding:0.5rem 1rem; background: var(--primary-green); color:white; border:none; border-radius:4px; }
+
+/* Therapy Predictor Styles */
+.card-therapy-predictor {
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  position: relative;
+  max-height: 100px;
+  overflow: hidden;
+}
+
+.card-therapy-predictor.expanded {
+  max-height: 2000px; /* Large enough to fit content */
+  cursor: default;
+}
+
+.card-therapy-predictor .card-content {
+  padding: 1rem;
+}
+
+.card-therapy-predictor .card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 1rem;
+}
+
+.card-therapy-predictor .card-header h3 {
+  margin: 0;
+  transition: margin 0.3s ease;
+}
+
+.card-therapy-predictor .expand-icon {
+  transition: transform 0.3s ease;
+  color: var(--text-light);
+}
+
+.card-therapy-predictor.expanded .expand-icon {
+  transform: rotate(180deg);
+}
+
+.card-therapy-predictor .preview-content {
+  padding: 0.5rem 0;
+  opacity: 1;
+  transition: opacity 0.3s ease;
+}
+
+.card-therapy-predictor.expanded .preview-content {
+  display: none;
+  opacity: 0;
+}
+
+.predictor-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.predictor-form .form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.predictor-form label {
+  font-weight: 500;
+  color: var(--text);
+}
+
+.predictor-form input,
+.predictor-form textarea,
+.predictor-form select {
+  padding: 0.5rem;
+  border: 1px solid var(--border-color);
+  border-radius: 6px;
+  font-size: 0.9rem;
+  background: var(--card-bg);
+}
+
+.predictor-form textarea {
+  resize: vertical;
+  min-height: 60px;
+}
+
+.btn-predict {
+  background: var(--soft-green);
+  color: white;
+  border: none;
+  padding: 0.8rem;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+.btn-predict:hover:not(:disabled) {
+  background: #439a82;
+  transform: translateY(-1px);
+}
+
+.btn-predict:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+.prediction-result {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  text-align: center;
+}
+
+.recommended-therapy {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: var(--soft-green);
+}
+
+.therapy-description {
+  background: var(--light-bg);
+  padding: 1rem;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+.btn-reset {
+  background: none;
+  border: 1px solid var(--soft-green);
+  color: var(--soft-green);
+  padding: 0.6rem;
+  border-radius: 6px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.btn-reset:hover {
+  background: var(--soft-green);
+  color: white;
+}
+
+.error-message {
+  color: #dc3545;
+  font-size: 0.9rem;
+  margin-top: 0.5rem;
+}
