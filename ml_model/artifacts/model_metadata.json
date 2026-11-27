@@ -1,0 +1,27 @@
+{
+    "model_name": "RandomForestClassifier",
+    "created_at": "2026-11-26T23:38:28.347928+00:00",
+    "dataset_rows": 1000,
+    "training_rows": 800,
+    "testing_rows": 200,
+    "features": [
+        "age",
+        "severityScore",
+        "gender",
+        "disease",
+        "lifestyle",
+        "stressLevel"
+    ],
+    "target": "therapy",
+    "therapy_classes": [
+        "Abhyanga",
+        "Diet Correction",
+        "Herbal Therapy",
+        "Meditation",
+        "Nasya",
+        "Yoga Therapy"
+    ],
+    "test_accuracy": 1.0,
+    "balanced_accuracy": 1.0,
+    "majority_baseline_accuracy": 0.3
+}

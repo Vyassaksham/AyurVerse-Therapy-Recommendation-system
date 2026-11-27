@@ -1,143 +1,157 @@
-import { spawn } from 'child_process';
-import path from 'path';
-import { fileURLToPath } from 'url';
-import { dirname } from 'path';
 
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = dirname(__filename);
+const ML_API_URL =
+  process.env.ML_API_URL || 'http://127.0.0.1:8000';
+
+const validDiseases = [
+  'Diabetes',
+  'Digestive Issues',
+  'Insomnia',
+  'Back Pain',
+  'Stress',
+  'Migraine',
+  'Anxiety',
+  'Joint Pain',
+  'Obesity',
+  'Skin Disorders',
+];
 
 export const predictTherapy = async (req, res) => {
   try {
-    const { age, gender, disease, lifestyle, stressLevel, severityScore } = req.body;
-
-    // Validate required inputs
-    if (!age || !gender || !disease || !lifestyle || !stressLevel || !severityScore) {
-      return res.status(400).json({ 
-        error: 'Missing required fields. Please provide age, gender, disease, lifestyle, stressLevel, and severityScore.' 
-      });
-    }
-
-    // Validate values
-    if (age < 18 || age > 100) {
-      return res.status(400).json({ error: 'Age must be between 18 and 100' });
-    }
-
-    if (!['Male', 'Female'].includes(gender)) {
-      return res.status(400).json({ error: 'Gender must be Male or Female' });
-    }
-
-    const validDiseases = [
-      'Diabetes', 'Digestive Issues', 'Insomnia', 'Back Pain',
-      'Stress', 'Migraine', 'Anxiety', 'Joint Pain', 
-      'Obesity', 'Skin Disorders'
-    ];
-    if (!validDiseases.includes(disease)) {
-      return res.status(400).json({ 
-        error: `Disease must be one of: ${validDiseases.join(', ')}` 
-      });
-    }
-
-    if (!['Active', 'Moderate', 'Sedentary'].includes(lifestyle)) {
-      return res.status(400).json({ 
-        error: 'Lifestyle must be Active, Moderate, or Sedentary' 
-      });
-    }
-
-    if (!['Low', 'Medium', 'High'].includes(stressLevel)) {
-      return res.status(400).json({ 
-        error: 'Stress level must be Low, Medium, or High' 
-      });
-    }
-
-    if (severityScore < 1 || severityScore > 10) {
-      return res.status(400).json({ 
-        error: 'Severity score must be between 1 and 10' 
-      });
-    }
-
-    console.log('Starting prediction with data:', { age, gender, disease, lifestyle, stressLevel, severityScore });
-
-    // Spawn Python process to run ML model
-    const pythonScript = path.join(__dirname, '../ml/predict_therapy.py');
-    console.log('Python script path:', pythonScript);
-
-    // Check if script exists
-    try {
-      await import('fs').then(fs => {
-        if (!fs.existsSync(pythonScript)) {
-          throw new Error(`Python script not found at ${pythonScript}`);
-        }
-      });
-    } catch (err) {
-      console.error('Script file error:', err);
-      throw err;
-    }
-    
-    const pythonProcess = spawn('python', [
-      pythonScript,
-      age.toString(),
+    const {
+      age,
       gender,
       disease,
       lifestyle,
       stressLevel,
-      severityScore.toString()
-    ]);
+      severityScore,
+    } = req.body;
 
-    let result = '';
-    let error = '';
-
-    pythonProcess.stdout.on('data', (data) => {
-      const output = data.toString();
-      console.log('Python stdout:', output);
-      result += output;
-    });
-
-    pythonProcess.stderr.on('data', (data) => {
-      const errorOutput = data.toString();
-      error += errorOutput;
-      try {
-        const debugInfo = JSON.parse(errorOutput);
-        console.log('Python debug info:', debugInfo);
-      } catch {
-        console.error('Python stderr:', errorOutput);
-      }
-    });
-
-    pythonProcess.on('error', (err) => {
-      console.error('Failed to start Python process:', err);
-      throw err;
-    });
-
-    await new Promise((resolve, reject) => {
-      pythonProcess.on('close', (code) => {
-        if (code !== 0) {
-          reject(new Error(`Python process exited with code ${code}. Error: ${error}`));
-        } else {
-          resolve();
-        }
+    // Validate required fields without rejecting numeric values like 0
+    if (
+      age === undefined ||
+      gender === undefined ||
+      disease === undefined ||
+      lifestyle === undefined ||
+      stressLevel === undefined ||
+      severityScore === undefined
+    ) {
+      return res.status(400).json({
+        error:
+          'Please provide age, gender, disease, lifestyle, stressLevel, and severityScore.',
       });
-    });
-
-    // Parse prediction result
-    try {
-      const prediction = JSON.parse(result.trim());
-      if (!prediction.therapy) {
-        throw new Error('Invalid prediction result: missing therapy');
-      }
-      res.json({
-        recommendedTherapy: prediction.therapy,
-        description: prediction.description
-      });
-    } catch (parseError) {
-      console.error('Failed to parse prediction result:', parseError, 'Raw result:', result);
-      throw new Error('Failed to parse prediction result');
     }
 
-  } catch (err) {
-    console.error('Prediction error:', err);
-    res.status(500).json({ 
-      error: process.env.NODE_ENV === 'development' ? err.message : 'Server error',
-      details: process.env.NODE_ENV === 'development' ? err.stack : undefined 
+    const numericAge = Number(age);
+    const numericSeverity = Number(severityScore);
+
+    if (
+      !Number.isInteger(numericAge) ||
+      numericAge < 18 ||
+      numericAge > 100
+    ) {
+      return res.status(400).json({
+        error: 'Age must be an integer between 18 and 100.',
+      });
+    }
+
+    if (!['Male', 'Female'].includes(gender)) {
+      return res.status(400).json({
+        error: 'Gender must be Male or Female.',
+      });
+    }
+
+    if (!validDiseases.includes(disease)) {
+      return res.status(400).json({
+        error: `Disease must be one of: ${validDiseases.join(', ')}`,
+      });
+    }
+
+    if (!['Active', 'Moderate', 'Sedentary'].includes(lifestyle)) {
+      return res.status(400).json({
+        error: 'Lifestyle must be Active, Moderate, or Sedentary.',
+      });
+    }
+
+    if (!['Low', 'Medium', 'High'].includes(stressLevel)) {
+      return res.status(400).json({
+        error: 'Stress level must be Low, Medium, or High.',
+      });
+    }
+
+    if (
+      !Number.isInteger(numericSeverity) ||
+      numericSeverity < 1 ||
+      numericSeverity > 10
+    ) {
+      return res.status(400).json({
+        error: 'Severity score must be an integer between 1 and 10.',
+      });
+    }
+
+    const input = {
+      age: numericAge,
+      gender,
+      disease,
+      lifestyle,
+      stressLevel,
+      severityScore: numericSeverity,
+    };
+
+    // Send the request to the already-running FastAPI ML service.
+    const response = await fetch(`${ML_API_URL}/predict`, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify(input),
+      signal: AbortSignal.timeout(15000),
+    });
+
+    const prediction = await response.json();
+
+    if (!response.ok) {
+      return res.status(response.status).json({
+        error:
+          prediction.detail ||
+          prediction.error ||
+          'ML service returned an error.',
+      });
+    }
+
+    if (!prediction.therapy) {
+      console.error('Invalid ML response:', prediction);
+
+      return res.status(502).json({
+        error: 'ML service returned an invalid prediction.',
+      });
+    }
+
+    // Preserve the response format expected by the frontend.
+    return res.json({
+      recommendedTherapy: prediction.therapy,
+      description: prediction.description,
+    });
+  } catch (error) {
+    console.error('Therapy prediction error:', error.message);
+
+    if (
+      error.name === 'TimeoutError' ||
+      error.name === 'AbortError'
+    ) {
+      return res.status(504).json({
+        error: 'ML service request timed out.',
+      });
+    }
+
+    if (error.cause || error.name === 'TypeError') {
+      return res.status(503).json({
+        error:
+          'Unable to connect to the ML service. Make sure FastAPI is running.',
+      });
+    }
+
+    return res.status(500).json({
+      error: 'Internal server error during therapy prediction.',
     });
   }
 };

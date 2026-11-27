@@ -1,0 +1,1001 @@
+age,gender,disease,lifestyle,stressLevel,severityScore,therapy
+18,Female,Anxiety,Active,Low,1,Meditation
+31,Male,Anxiety,Moderate,High,4,Meditation
+44,Female,Anxiety,Sedentary,Medium,7,Meditation
+57,Male,Anxiety,Active,Low,10,Meditation
+70,Female,Anxiety,Moderate,High,3,Meditation
+83,Male,Anxiety,Sedentary,Medium,6,Meditation
+96,Female,Anxiety,Active,Low,9,Meditation
+26,Male,Anxiety,Moderate,High,2,Meditation
+39,Female,Anxiety,Sedentary,Medium,5,Meditation
+52,Male,Anxiety,Active,Low,8,Meditation
+65,Female,Anxiety,Moderate,High,1,Meditation
+78,Male,Anxiety,Sedentary,Medium,4,Meditation
+91,Female,Anxiety,Active,Low,7,Meditation
+21,Male,Anxiety,Moderate,High,10,Meditation
+34,Female,Anxiety,Sedentary,Medium,3,Meditation
+47,Male,Anxiety,Active,Low,6,Meditation
+60,Female,Anxiety,Moderate,High,9,Meditation
+73,Male,Anxiety,Sedentary,Medium,2,Meditation
+86,Female,Anxiety,Active,Low,5,Meditation
+99,Male,Anxiety,Moderate,High,8,Meditation
+29,Female,Anxiety,Sedentary,Medium,1,Meditation
+42,Male,Anxiety,Active,Low,4,Meditation
+55,Female,Anxiety,Moderate,High,7,Meditation
+68,Male,Anxiety,Sedentary,Medium,10,Meditation
+81,Female,Anxiety,Active,Low,3,Meditation
+94,Male,Anxiety,Moderate,High,6,Meditation
+24,Female,Anxiety,Sedentary,Medium,9,Meditation
+37,Male,Anxiety,Active,Low,2,Meditation
+50,Female,Anxiety,Moderate,High,5,Meditation
+63,Male,Anxiety,Sedentary,Medium,8,Meditation
+76,Female,Anxiety,Active,Low,1,Meditation
+89,Male,Anxiety,Moderate,High,4,Meditation
+19,Female,Anxiety,Sedentary,Medium,7,Meditation
+32,Male,Anxiety,Active,Low,10,Meditation
+45,Female,Anxiety,Moderate,High,3,Meditation
+58,Male,Anxiety,Sedentary,Medium,6,Meditation
+71,Female,Anxiety,Active,Low,9,Meditation
+84,Male,Anxiety,Moderate,High,2,Meditation
+97,Female,Anxiety,Sedentary,Medium,5,Meditation
+27,Male,Anxiety,Active,Low,8,Meditation
+40,Female,Anxiety,Moderate,High,1,Meditation
+53,Male,Anxiety,Sedentary,Medium,4,Meditation
+66,Female,Anxiety,Active,Low,7,Meditation
+79,Male,Anxiety,Moderate,High,10,Meditation
+92,Female,Anxiety,Sedentary,Medium,3,Meditation
+22,Male,Anxiety,Active,Low,6,Meditation
+35,Female,Anxiety,Moderate,High,9,Meditation
+48,Male,Anxiety,Sedentary,Medium,2,Meditation
+61,Female,Anxiety,Active,Low,5,Meditation
+74,Male,Anxiety,Moderate,High,8,Meditation
+87,Female,Anxiety,Sedentary,Medium,1,Meditation
+100,Male,Anxiety,Active,Low,4,Meditation
+30,Female,Anxiety,Moderate,High,7,Meditation
+43,Male,Anxiety,Sedentary,Medium,10,Meditation
+56,Female,Anxiety,Active,Low,3,Meditation
+69,Male,Anxiety,Moderate,High,6,Meditation
+82,Female,Anxiety,Sedentary,Medium,9,Meditation
+95,Male,Anxiety,Active,Low,2,Meditation
+25,Female,Anxiety,Moderate,High,5,Meditation
+38,Male,Anxiety,Sedentary,Medium,8,Meditation
+51,Female,Anxiety,Active,Low,1,Meditation
+64,Male,Anxiety,Moderate,High,4,Meditation
+77,Female,Anxiety,Sedentary,Medium,7,Meditation
+90,Male,Anxiety,Active,Low,10,Meditation
+20,Female,Anxiety,Moderate,High,3,Meditation
+33,Male,Anxiety,Sedentary,Medium,6,Meditation
+46,Female,Anxiety,Active,Low,9,Meditation
+59,Male,Anxiety,Moderate,High,2,Meditation
+72,Female,Anxiety,Sedentary,Medium,5,Meditation
+85,Male,Anxiety,Active,Low,8,Meditation
+98,Female,Anxiety,Moderate,High,1,Meditation
+28,Male,Anxiety,Sedentary,Medium,4,Meditation
+41,Female,Anxiety,Active,Low,7,Meditation
+54,Male,Anxiety,Moderate,High,10,Meditation
+67,Female,Anxiety,Sedentary,Medium,3,Meditation
+80,Male,Anxiety,Active,Low,6,Meditation
+93,Female,Anxiety,Moderate,High,9,Meditation
+23,Male,Anxiety,Sedentary,Medium,2,Meditation
+36,Female,Anxiety,Active,Low,5,Meditation
+49,Male,Anxiety,Moderate,High,8,Meditation
+62,Female,Anxiety,Sedentary,Medium,1,Meditation
+75,Male,Anxiety,Active,Low,4,Meditation
+88,Female,Anxiety,Moderate,High,7,Meditation
+18,Male,Anxiety,Sedentary,Medium,10,Meditation
+31,Female,Anxiety,Active,Low,3,Meditation
+44,Male,Anxiety,Moderate,High,6,Meditation
+57,Female,Anxiety,Sedentary,Medium,9,Meditation
+70,Male,Anxiety,Active,Low,2,Meditation
+83,Female,Anxiety,Moderate,High,5,Meditation
+96,Male,Anxiety,Sedentary,Medium,8,Meditation
+26,Female,Anxiety,Active,Low,1,Meditation
+39,Male,Anxiety,Moderate,High,4,Meditation
+52,Female,Anxiety,Sedentary,Medium,7,Meditation
+65,Male,Anxiety,Active,Low,10,Meditation
+78,Female,Anxiety,Moderate,High,3,Meditation
+91,Male,Anxiety,Sedentary,Medium,6,Meditation
+21,Female,Anxiety,Active,Low,9,Meditation
+34,Male,Anxiety,Moderate,High,2,Meditation
+47,Female,Anxiety,Sedentary,Medium,5,Meditation
+60,Male,Anxiety,Active,Low,8,Meditation
+35,Male,Insomnia,Sedentary,Medium,8,Yoga Therapy
+48,Female,Insomnia,Active,Low,1,Yoga Therapy
+61,Male,Insomnia,Moderate,High,4,Yoga Therapy
+74,Female,Insomnia,Sedentary,Medium,7,Yoga Therapy
+87,Male,Insomnia,Active,Low,10,Yoga Therapy
+100,Female,Insomnia,Moderate,High,3,Yoga Therapy
+30,Male,Insomnia,Sedentary,Medium,6,Yoga Therapy
+43,Female,Insomnia,Active,Low,9,Yoga Therapy
+56,Male,Insomnia,Moderate,High,2,Yoga Therapy
+69,Female,Insomnia,Sedentary,Medium,5,Yoga Therapy
+82,Male,Insomnia,Active,Low,8,Yoga Therapy
+95,Female,Insomnia,Moderate,High,1,Yoga Therapy
+25,Male,Insomnia,Sedentary,Medium,4,Yoga Therapy
+38,Female,Insomnia,Active,Low,7,Yoga Therapy
+51,Male,Insomnia,Moderate,High,10,Yoga Therapy
+64,Female,Insomnia,Sedentary,Medium,3,Yoga Therapy
+77,Male,Insomnia,Active,Low,6,Yoga Therapy
+90,Female,Insomnia,Moderate,High,9,Yoga Therapy
+20,Male,Insomnia,Sedentary,Medium,2,Yoga Therapy
+33,Female,Insomnia,Active,Low,5,Yoga Therapy
+46,Male,Insomnia,Moderate,High,8,Yoga Therapy
+59,Female,Insomnia,Sedentary,Medium,1,Yoga Therapy
+72,Male,Insomnia,Active,Low,4,Yoga Therapy
+85,Female,Insomnia,Moderate,High,7,Yoga Therapy
+98,Male,Insomnia,Sedentary,Medium,10,Yoga Therapy
+28,Female,Insomnia,Active,Low,3,Yoga Therapy
+41,Male,Insomnia,Moderate,High,6,Yoga Therapy
+54,Female,Insomnia,Sedentary,Medium,9,Yoga Therapy
+67,Male,Insomnia,Active,Low,2,Yoga Therapy
+80,Female,Insomnia,Moderate,High,5,Yoga Therapy
+93,Male,Insomnia,Sedentary,Medium,8,Yoga Therapy
+23,Female,Insomnia,Active,Low,1,Yoga Therapy
+36,Male,Insomnia,Moderate,High,4,Yoga Therapy
+49,Female,Insomnia,Sedentary,Medium,7,Yoga Therapy
+62,Male,Insomnia,Active,Low,10,Yoga Therapy
+75,Female,Insomnia,Moderate,High,3,Yoga Therapy
+88,Male,Insomnia,Sedentary,Medium,6,Yoga Therapy
+18,Female,Insomnia,Active,Low,9,Yoga Therapy
+31,Male,Insomnia,Moderate,High,2,Yoga Therapy
+44,Female,Insomnia,Sedentary,Medium,5,Yoga Therapy
+57,Male,Insomnia,Active,Low,8,Yoga Therapy
+70,Female,Insomnia,Moderate,High,1,Yoga Therapy
+83,Male,Insomnia,Sedentary,Medium,4,Yoga Therapy
+96,Female,Insomnia,Active,Low,7,Yoga Therapy
+26,Male,Insomnia,Moderate,High,10,Yoga Therapy
+39,Female,Insomnia,Sedentary,Medium,3,Yoga Therapy
+52,Male,Insomnia,Active,Low,6,Yoga Therapy
+65,Female,Insomnia,Moderate,High,9,Yoga Therapy
+78,Male,Insomnia,Sedentary,Medium,2,Yoga Therapy
+91,Female,Insomnia,Active,Low,5,Yoga Therapy
+21,Male,Insomnia,Moderate,High,8,Yoga Therapy
+34,Female,Insomnia,Sedentary,Medium,1,Yoga Therapy
+47,Male,Insomnia,Active,Low,4,Yoga Therapy
+60,Female,Insomnia,Moderate,High,7,Yoga Therapy
+73,Male,Insomnia,Sedentary,Medium,10,Yoga Therapy
+86,Female,Insomnia,Active,Low,3,Yoga Therapy
+99,Male,Insomnia,Moderate,High,6,Yoga Therapy
+29,Female,Insomnia,Sedentary,Medium,9,Yoga Therapy
+42,Male,Insomnia,Active,Low,2,Yoga Therapy
+55,Female,Insomnia,Moderate,High,5,Yoga Therapy
+68,Male,Insomnia,Sedentary,Medium,8,Yoga Therapy
+81,Female,Insomnia,Active,Low,1,Yoga Therapy
+94,Male,Insomnia,Moderate,High,4,Yoga Therapy
+24,Female,Insomnia,Sedentary,Medium,7,Yoga Therapy
+37,Male,Insomnia,Active,Low,10,Yoga Therapy
+50,Female,Insomnia,Moderate,High,3,Yoga Therapy
+63,Male,Insomnia,Sedentary,Medium,6,Yoga Therapy
+76,Female,Insomnia,Active,Low,9,Yoga Therapy
+89,Male,Insomnia,Moderate,High,2,Yoga Therapy
+19,Female,Insomnia,Sedentary,Medium,5,Yoga Therapy
+32,Male,Insomnia,Active,Low,8,Yoga Therapy
+45,Female,Insomnia,Moderate,High,1,Yoga Therapy
+58,Male,Insomnia,Sedentary,Medium,4,Yoga Therapy
+71,Female,Insomnia,Active,Low,7,Yoga Therapy
+84,Male,Insomnia,Moderate,High,10,Yoga Therapy
+97,Female,Insomnia,Sedentary,Medium,3,Yoga Therapy
+27,Male,Insomnia,Active,Low,6,Yoga Therapy
+40,Female,Insomnia,Moderate,High,9,Yoga Therapy
+53,Male,Insomnia,Sedentary,Medium,2,Yoga Therapy
+66,Female,Insomnia,Active,Low,5,Yoga Therapy
+79,Male,Insomnia,Moderate,High,8,Yoga Therapy
+92,Female,Insomnia,Sedentary,Medium,1,Yoga Therapy
+22,Male,Insomnia,Active,Low,4,Yoga Therapy
+35,Female,Insomnia,Moderate,High,7,Yoga Therapy
+48,Male,Insomnia,Sedentary,Medium,10,Yoga Therapy
+61,Female,Insomnia,Active,Low,3,Yoga Therapy
+74,Male,Insomnia,Moderate,High,6,Yoga Therapy
+87,Female,Insomnia,Sedentary,Medium,9,Yoga Therapy
+100,Male,Insomnia,Active,Low,2,Yoga Therapy
+30,Female,Insomnia,Moderate,High,5,Yoga Therapy
+43,Male,Insomnia,Sedentary,Medium,8,Yoga Therapy
+56,Female,Insomnia,Active,Low,1,Yoga Therapy
+69,Male,Insomnia,Moderate,High,4,Yoga Therapy
+82,Female,Insomnia,Sedentary,Medium,7,Yoga Therapy
+95,Male,Insomnia,Active,Low,10,Yoga Therapy
+25,Female,Insomnia,Moderate,High,3,Yoga Therapy
+38,Male,Insomnia,Sedentary,Medium,6,Yoga Therapy
+51,Female,Insomnia,Active,Low,9,Yoga Therapy
+64,Male,Insomnia,Moderate,High,2,Yoga Therapy
+77,Female,Insomnia,Sedentary,Medium,5,Yoga Therapy
+52,Female,Joint Pain,Moderate,High,5,Abhyanga
+65,Male,Joint Pain,Sedentary,Medium,8,Abhyanga
+78,Female,Joint Pain,Active,Low,1,Abhyanga
+91,Male,Joint Pain,Moderate,High,4,Abhyanga
+21,Female,Joint Pain,Sedentary,Medium,7,Abhyanga
+34,Male,Joint Pain,Active,Low,10,Abhyanga
+47,Female,Joint Pain,Moderate,High,3,Abhyanga
+60,Male,Joint Pain,Sedentary,Medium,6,Abhyanga
+73,Female,Joint Pain,Active,Low,9,Abhyanga
+86,Male,Joint Pain,Moderate,High,2,Abhyanga
+99,Female,Joint Pain,Sedentary,Medium,5,Abhyanga
+29,Male,Joint Pain,Active,Low,8,Abhyanga
+42,Female,Joint Pain,Moderate,High,1,Abhyanga
+55,Male,Joint Pain,Sedentary,Medium,4,Abhyanga
+68,Female,Joint Pain,Active,Low,7,Abhyanga
+81,Male,Joint Pain,Moderate,High,10,Abhyanga
+94,Female,Joint Pain,Sedentary,Medium,3,Abhyanga
+24,Male,Joint Pain,Active,Low,6,Abhyanga
+37,Female,Joint Pain,Moderate,High,9,Abhyanga
+50,Male,Joint Pain,Sedentary,Medium,2,Abhyanga
+63,Female,Joint Pain,Active,Low,5,Abhyanga
+76,Male,Joint Pain,Moderate,High,8,Abhyanga
+89,Female,Joint Pain,Sedentary,Medium,1,Abhyanga
+19,Male,Joint Pain,Active,Low,4,Abhyanga
+32,Female,Joint Pain,Moderate,High,7,Abhyanga
+45,Male,Joint Pain,Sedentary,Medium,10,Abhyanga
+58,Female,Joint Pain,Active,Low,3,Abhyanga
+71,Male,Joint Pain,Moderate,High,6,Abhyanga
+84,Female,Joint Pain,Sedentary,Medium,9,Abhyanga
+97,Male,Joint Pain,Active,Low,2,Abhyanga
+27,Female,Joint Pain,Moderate,High,5,Abhyanga
+40,Male,Joint Pain,Sedentary,Medium,8,Abhyanga
+53,Female,Joint Pain,Active,Low,1,Abhyanga
+66,Male,Joint Pain,Moderate,High,4,Abhyanga
+79,Female,Joint Pain,Sedentary,Medium,7,Abhyanga
+92,Male,Joint Pain,Active,Low,10,Abhyanga
+22,Female,Joint Pain,Moderate,High,3,Abhyanga
+35,Male,Joint Pain,Sedentary,Medium,6,Abhyanga
+48,Female,Joint Pain,Active,Low,9,Abhyanga
+61,Male,Joint Pain,Moderate,High,2,Abhyanga
+74,Female,Joint Pain,Sedentary,Medium,5,Abhyanga
+87,Male,Joint Pain,Active,Low,8,Abhyanga
+100,Female,Joint Pain,Moderate,High,1,Abhyanga
+30,Male,Joint Pain,Sedentary,Medium,4,Abhyanga
+43,Female,Joint Pain,Active,Low,7,Abhyanga
+56,Male,Joint Pain,Moderate,High,10,Abhyanga
+69,Female,Joint Pain,Sedentary,Medium,3,Abhyanga
+82,Male,Joint Pain,Active,Low,6,Abhyanga
+95,Female,Joint Pain,Moderate,High,9,Abhyanga
+25,Male,Joint Pain,Sedentary,Medium,2,Abhyanga
+38,Female,Joint Pain,Active,Low,5,Abhyanga
+51,Male,Joint Pain,Moderate,High,8,Abhyanga
+64,Female,Joint Pain,Sedentary,Medium,1,Abhyanga
+77,Male,Joint Pain,Active,Low,4,Abhyanga
+90,Female,Joint Pain,Moderate,High,7,Abhyanga
+20,Male,Joint Pain,Sedentary,Medium,10,Abhyanga
+33,Female,Joint Pain,Active,Low,3,Abhyanga
+46,Male,Joint Pain,Moderate,High,6,Abhyanga
+59,Female,Joint Pain,Sedentary,Medium,9,Abhyanga
+72,Male,Joint Pain,Active,Low,2,Abhyanga
+85,Female,Joint Pain,Moderate,High,5,Abhyanga
+98,Male,Joint Pain,Sedentary,Medium,8,Abhyanga
+28,Female,Joint Pain,Active,Low,1,Abhyanga
+41,Male,Joint Pain,Moderate,High,4,Abhyanga
+54,Female,Joint Pain,Sedentary,Medium,7,Abhyanga
+67,Male,Joint Pain,Active,Low,10,Abhyanga
+80,Female,Joint Pain,Moderate,High,3,Abhyanga
+93,Male,Joint Pain,Sedentary,Medium,6,Abhyanga
+23,Female,Joint Pain,Active,Low,9,Abhyanga
+36,Male,Joint Pain,Moderate,High,2,Abhyanga
+49,Female,Joint Pain,Sedentary,Medium,5,Abhyanga
+62,Male,Joint Pain,Active,Low,8,Abhyanga
+75,Female,Joint Pain,Moderate,High,1,Abhyanga
+88,Male,Joint Pain,Sedentary,Medium,4,Abhyanga
+18,Female,Joint Pain,Active,Low,7,Abhyanga
+31,Male,Joint Pain,Moderate,High,10,Abhyanga
+44,Female,Joint Pain,Sedentary,Medium,3,Abhyanga
+57,Male,Joint Pain,Active,Low,6,Abhyanga
+70,Female,Joint Pain,Moderate,High,9,Abhyanga
+83,Male,Joint Pain,Sedentary,Medium,2,Abhyanga
+96,Female,Joint Pain,Active,Low,5,Abhyanga
+26,Male,Joint Pain,Moderate,High,8,Abhyanga
+39,Female,Joint Pain,Sedentary,Medium,1,Abhyanga
+52,Male,Joint Pain,Active,Low,4,Abhyanga
+65,Female,Joint Pain,Moderate,High,7,Abhyanga
+78,Male,Joint Pain,Sedentary,Medium,10,Abhyanga
+91,Female,Joint Pain,Active,Low,3,Abhyanga
+21,Male,Joint Pain,Moderate,High,6,Abhyanga
+34,Female,Joint Pain,Sedentary,Medium,9,Abhyanga
+47,Male,Joint Pain,Active,Low,2,Abhyanga
+60,Female,Joint Pain,Moderate,High,5,Abhyanga
+73,Male,Joint Pain,Sedentary,Medium,8,Abhyanga
+86,Female,Joint Pain,Active,Low,1,Abhyanga
+99,Male,Joint Pain,Moderate,High,4,Abhyanga
+29,Female,Joint Pain,Sedentary,Medium,7,Abhyanga
+42,Male,Joint Pain,Active,Low,10,Abhyanga
+55,Female,Joint Pain,Moderate,High,3,Abhyanga
+68,Male,Joint Pain,Sedentary,Medium,6,Abhyanga
+81,Female,Joint Pain,Active,Low,9,Abhyanga
+94,Male,Joint Pain,Moderate,High,2,Abhyanga
+69,Male,Digestive Issues,Active,Low,2,Diet Correction
+82,Female,Digestive Issues,Moderate,High,5,Diet Correction
+95,Male,Digestive Issues,Sedentary,Medium,8,Diet Correction
+25,Female,Digestive Issues,Active,Low,1,Diet Correction
+38,Male,Digestive Issues,Moderate,High,4,Diet Correction
+51,Female,Digestive Issues,Sedentary,Medium,7,Diet Correction
+64,Male,Digestive Issues,Active,Low,10,Diet Correction
+77,Female,Digestive Issues,Moderate,High,3,Diet Correction
+90,Male,Digestive Issues,Sedentary,Medium,6,Diet Correction
+20,Female,Digestive Issues,Active,Low,9,Diet Correction
+33,Male,Digestive Issues,Moderate,High,2,Diet Correction
+46,Female,Digestive Issues,Sedentary,Medium,5,Diet Correction
+59,Male,Digestive Issues,Active,Low,8,Diet Correction
+72,Female,Digestive Issues,Moderate,High,1,Diet Correction
+85,Male,Digestive Issues,Sedentary,Medium,4,Diet Correction
+98,Female,Digestive Issues,Active,Low,7,Diet Correction
+28,Male,Digestive Issues,Moderate,High,10,Diet Correction
+41,Female,Digestive Issues,Sedentary,Medium,3,Diet Correction
+54,Male,Digestive Issues,Active,Low,6,Diet Correction
+67,Female,Digestive Issues,Moderate,High,9,Diet Correction
+80,Male,Digestive Issues,Sedentary,Medium,2,Diet Correction
+93,Female,Digestive Issues,Active,Low,5,Diet Correction
+23,Male,Digestive Issues,Moderate,High,8,Diet Correction
+36,Female,Digestive Issues,Sedentary,Medium,1,Diet Correction
+49,Male,Digestive Issues,Active,Low,4,Diet Correction
+62,Female,Digestive Issues,Moderate,High,7,Diet Correction
+75,Male,Digestive Issues,Sedentary,Medium,10,Diet Correction
+88,Female,Digestive Issues,Active,Low,3,Diet Correction
+18,Male,Digestive Issues,Moderate,High,6,Diet Correction
+31,Female,Digestive Issues,Sedentary,Medium,9,Diet Correction
+44,Male,Digestive Issues,Active,Low,2,Diet Correction
+57,Female,Digestive Issues,Moderate,High,5,Diet Correction
+70,Male,Digestive Issues,Sedentary,Medium,8,Diet Correction
+83,Female,Digestive Issues,Active,Low,1,Diet Correction
+96,Male,Digestive Issues,Moderate,High,4,Diet Correction
+26,Female,Digestive Issues,Sedentary,Medium,7,Diet Correction
+39,Male,Digestive Issues,Active,Low,10,Diet Correction
+52,Female,Digestive Issues,Moderate,High,3,Diet Correction
+65,Male,Digestive Issues,Sedentary,Medium,6,Diet Correction
+78,Female,Digestive Issues,Active,Low,9,Diet Correction
+91,Male,Digestive Issues,Moderate,High,2,Diet Correction
+21,Female,Digestive Issues,Sedentary,Medium,5,Diet Correction
+34,Male,Digestive Issues,Active,Low,8,Diet Correction
+47,Female,Digestive Issues,Moderate,High,1,Diet Correction
+60,Male,Digestive Issues,Sedentary,Medium,4,Diet Correction
+73,Female,Digestive Issues,Active,Low,7,Diet Correction
+86,Male,Digestive Issues,Moderate,High,10,Diet Correction
+99,Female,Digestive Issues,Sedentary,Medium,3,Diet Correction
+29,Male,Digestive Issues,Active,Low,6,Diet Correction
+42,Female,Digestive Issues,Moderate,High,9,Diet Correction
+55,Male,Digestive Issues,Sedentary,Medium,2,Diet Correction
+68,Female,Digestive Issues,Active,Low,5,Diet Correction
+81,Male,Digestive Issues,Moderate,High,8,Diet Correction
+94,Female,Digestive Issues,Sedentary,Medium,1,Diet Correction
+24,Male,Digestive Issues,Active,Low,4,Diet Correction
+37,Female,Digestive Issues,Moderate,High,7,Diet Correction
+50,Male,Digestive Issues,Sedentary,Medium,10,Diet Correction
+63,Female,Digestive Issues,Active,Low,3,Diet Correction
+76,Male,Digestive Issues,Moderate,High,6,Diet Correction
+89,Female,Digestive Issues,Sedentary,Medium,9,Diet Correction
+19,Male,Digestive Issues,Active,Low,2,Diet Correction
+32,Female,Digestive Issues,Moderate,High,5,Diet Correction
+45,Male,Digestive Issues,Sedentary,Medium,8,Diet Correction
+58,Female,Digestive Issues,Active,Low,1,Diet Correction
+71,Male,Digestive Issues,Moderate,High,4,Diet Correction
+84,Female,Digestive Issues,Sedentary,Medium,7,Diet Correction
+97,Male,Digestive Issues,Active,Low,10,Diet Correction
+27,Female,Digestive Issues,Moderate,High,3,Diet Correction
+40,Male,Digestive Issues,Sedentary,Medium,6,Diet Correction
+53,Female,Digestive Issues,Active,Low,9,Diet Correction
+66,Male,Digestive Issues,Moderate,High,2,Diet Correction
+79,Female,Digestive Issues,Sedentary,Medium,5,Diet Correction
+92,Male,Digestive Issues,Active,Low,8,Diet Correction
+22,Female,Digestive Issues,Moderate,High,1,Diet Correction
+35,Male,Digestive Issues,Sedentary,Medium,4,Diet Correction
+48,Female,Digestive Issues,Active,Low,7,Diet Correction
+61,Male,Digestive Issues,Moderate,High,10,Diet Correction
+74,Female,Digestive Issues,Sedentary,Medium,3,Diet Correction
+87,Male,Digestive Issues,Active,Low,6,Diet Correction
+100,Female,Digestive Issues,Moderate,High,9,Diet Correction
+30,Male,Digestive Issues,Sedentary,Medium,2,Diet Correction
+43,Female,Digestive Issues,Active,Low,5,Diet Correction
+56,Male,Digestive Issues,Moderate,High,8,Diet Correction
+69,Female,Digestive Issues,Sedentary,Medium,1,Diet Correction
+82,Male,Digestive Issues,Active,Low,4,Diet Correction
+95,Female,Digestive Issues,Moderate,High,7,Diet Correction
+25,Male,Digestive Issues,Sedentary,Medium,10,Diet Correction
+38,Female,Digestive Issues,Active,Low,3,Diet Correction
+51,Male,Digestive Issues,Moderate,High,6,Diet Correction
+64,Female,Digestive Issues,Sedentary,Medium,9,Diet Correction
+77,Male,Digestive Issues,Active,Low,2,Diet Correction
+90,Female,Digestive Issues,Moderate,High,5,Diet Correction
+20,Male,Digestive Issues,Sedentary,Medium,8,Diet Correction
+33,Female,Digestive Issues,Active,Low,1,Diet Correction
+46,Male,Digestive Issues,Moderate,High,4,Diet Correction
+59,Female,Digestive Issues,Sedentary,Medium,7,Diet Correction
+72,Male,Digestive Issues,Active,Low,10,Diet Correction
+85,Female,Digestive Issues,Moderate,High,3,Diet Correction
+98,Male,Digestive Issues,Sedentary,Medium,6,Diet Correction
+28,Female,Digestive Issues,Active,Low,9,Diet Correction
+86,Female,Stress,Sedentary,Medium,9,Meditation
+99,Male,Stress,Active,Low,2,Meditation
+29,Female,Stress,Moderate,High,5,Meditation
+42,Male,Stress,Sedentary,Medium,8,Meditation
+55,Female,Stress,Active,Low,1,Meditation
+68,Male,Stress,Moderate,High,4,Meditation
+81,Female,Stress,Sedentary,Medium,7,Meditation
+94,Male,Stress,Active,Low,10,Meditation
+24,Female,Stress,Moderate,High,3,Meditation
+37,Male,Stress,Sedentary,Medium,6,Meditation
+50,Female,Stress,Active,Low,9,Meditation
+63,Male,Stress,Moderate,High,2,Meditation
+76,Female,Stress,Sedentary,Medium,5,Meditation
+89,Male,Stress,Active,Low,8,Meditation
+19,Female,Stress,Moderate,High,1,Meditation
+32,Male,Stress,Sedentary,Medium,4,Meditation
+45,Female,Stress,Active,Low,7,Meditation
+58,Male,Stress,Moderate,High,10,Meditation
+71,Female,Stress,Sedentary,Medium,3,Meditation
+84,Male,Stress,Active,Low,6,Meditation
+97,Female,Stress,Moderate,High,9,Meditation
+27,Male,Stress,Sedentary,Medium,2,Meditation
+40,Female,Stress,Active,Low,5,Meditation
+53,Male,Stress,Moderate,High,8,Meditation
+66,Female,Stress,Sedentary,Medium,1,Meditation
+79,Male,Stress,Active,Low,4,Meditation
+92,Female,Stress,Moderate,High,7,Meditation
+22,Male,Stress,Sedentary,Medium,10,Meditation
+35,Female,Stress,Active,Low,3,Meditation
+48,Male,Stress,Moderate,High,6,Meditation
+61,Female,Stress,Sedentary,Medium,9,Meditation
+74,Male,Stress,Active,Low,2,Meditation
+87,Female,Stress,Moderate,High,5,Meditation
+100,Male,Stress,Sedentary,Medium,8,Meditation
+30,Female,Stress,Active,Low,1,Meditation
+43,Male,Stress,Moderate,High,4,Meditation
+56,Female,Stress,Sedentary,Medium,7,Meditation
+69,Male,Stress,Active,Low,10,Meditation
+82,Female,Stress,Moderate,High,3,Meditation
+95,Male,Stress,Sedentary,Medium,6,Meditation
+25,Female,Stress,Active,Low,9,Meditation
+38,Male,Stress,Moderate,High,2,Meditation
+51,Female,Stress,Sedentary,Medium,5,Meditation
+64,Male,Stress,Active,Low,8,Meditation
+77,Female,Stress,Moderate,High,1,Meditation
+90,Male,Stress,Sedentary,Medium,4,Meditation
+20,Female,Stress,Active,Low,7,Meditation
+33,Male,Stress,Moderate,High,10,Meditation
+46,Female,Stress,Sedentary,Medium,3,Meditation
+59,Male,Stress,Active,Low,6,Meditation
+72,Female,Stress,Moderate,High,9,Meditation
+85,Male,Stress,Sedentary,Medium,2,Meditation
+98,Female,Stress,Active,Low,5,Meditation
+28,Male,Stress,Moderate,High,8,Meditation
+41,Female,Stress,Sedentary,Medium,1,Meditation
+54,Male,Stress,Active,Low,4,Meditation
+67,Female,Stress,Moderate,High,7,Meditation
+80,Male,Stress,Sedentary,Medium,10,Meditation
+93,Female,Stress,Active,Low,3,Meditation
+23,Male,Stress,Moderate,High,6,Meditation
+36,Female,Stress,Sedentary,Medium,9,Meditation
+49,Male,Stress,Active,Low,2,Meditation
+62,Female,Stress,Moderate,High,5,Meditation
+75,Male,Stress,Sedentary,Medium,8,Meditation
+88,Female,Stress,Active,Low,1,Meditation
+18,Male,Stress,Moderate,High,4,Meditation
+31,Female,Stress,Sedentary,Medium,7,Meditation
+44,Male,Stress,Active,Low,10,Meditation
+57,Female,Stress,Moderate,High,3,Meditation
+70,Male,Stress,Sedentary,Medium,6,Meditation
+83,Female,Stress,Active,Low,9,Meditation
+96,Male,Stress,Moderate,High,2,Meditation
+26,Female,Stress,Sedentary,Medium,5,Meditation
+39,Male,Stress,Active,Low,8,Meditation
+52,Female,Stress,Moderate,High,1,Meditation
+65,Male,Stress,Sedentary,Medium,4,Meditation
+78,Female,Stress,Active,Low,7,Meditation
+91,Male,Stress,Moderate,High,10,Meditation
+21,Female,Stress,Sedentary,Medium,3,Meditation
+34,Male,Stress,Active,Low,6,Meditation
+47,Female,Stress,Moderate,High,9,Meditation
+60,Male,Stress,Sedentary,Medium,2,Meditation
+73,Female,Stress,Active,Low,5,Meditation
+86,Male,Stress,Moderate,High,8,Meditation
+99,Female,Stress,Sedentary,Medium,1,Meditation
+29,Male,Stress,Active,Low,4,Meditation
+42,Female,Stress,Moderate,High,7,Meditation
+55,Male,Stress,Sedentary,Medium,10,Meditation
+68,Female,Stress,Active,Low,3,Meditation
+81,Male,Stress,Moderate,High,6,Meditation
+94,Female,Stress,Sedentary,Medium,9,Meditation
+24,Male,Stress,Active,Low,2,Meditation
+37,Female,Stress,Moderate,High,5,Meditation
+50,Male,Stress,Sedentary,Medium,8,Meditation
+63,Female,Stress,Active,Low,1,Meditation
+76,Male,Stress,Moderate,High,4,Meditation
+89,Female,Stress,Sedentary,Medium,7,Meditation
+19,Male,Stress,Active,Low,10,Meditation
+32,Female,Stress,Moderate,High,3,Meditation
+45,Male,Stress,Sedentary,Medium,6,Meditation
+20,Male,Skin Disorders,Moderate,High,6,Herbal Therapy
+33,Female,Skin Disorders,Sedentary,Medium,9,Herbal Therapy
+46,Male,Skin Disorders,Active,Low,2,Herbal Therapy
+59,Female,Skin Disorders,Moderate,High,5,Herbal Therapy
+72,Male,Skin Disorders,Sedentary,Medium,8,Herbal Therapy
+85,Female,Skin Disorders,Active,Low,1,Herbal Therapy
+98,Male,Skin Disorders,Moderate,High,4,Herbal Therapy
+28,Female,Skin Disorders,Sedentary,Medium,7,Herbal Therapy
+41,Male,Skin Disorders,Active,Low,10,Herbal Therapy
+54,Female,Skin Disorders,Moderate,High,3,Herbal Therapy
+67,Male,Skin Disorders,Sedentary,Medium,6,Herbal Therapy
+80,Female,Skin Disorders,Active,Low,9,Herbal Therapy
+93,Male,Skin Disorders,Moderate,High,2,Herbal Therapy
+23,Female,Skin Disorders,Sedentary,Medium,5,Herbal Therapy
+36,Male,Skin Disorders,Active,Low,8,Herbal Therapy
+49,Female,Skin Disorders,Moderate,High,1,Herbal Therapy
+62,Male,Skin Disorders,Sedentary,Medium,4,Herbal Therapy
+75,Female,Skin Disorders,Active,Low,7,Herbal Therapy
+88,Male,Skin Disorders,Moderate,High,10,Herbal Therapy
+18,Female,Skin Disorders,Sedentary,Medium,3,Herbal Therapy
+31,Male,Skin Disorders,Active,Low,6,Herbal Therapy
+44,Female,Skin Disorders,Moderate,High,9,Herbal Therapy
+57,Male,Skin Disorders,Sedentary,Medium,2,Herbal Therapy
+70,Female,Skin Disorders,Active,Low,5,Herbal Therapy
+83,Male,Skin Disorders,Moderate,High,8,Herbal Therapy
+96,Female,Skin Disorders,Sedentary,Medium,1,Herbal Therapy
+26,Male,Skin Disorders,Active,Low,4,Herbal Therapy
+39,Female,Skin Disorders,Moderate,High,7,Herbal Therapy
+52,Male,Skin Disorders,Sedentary,Medium,10,Herbal Therapy
+65,Female,Skin Disorders,Active,Low,3,Herbal Therapy
+78,Male,Skin Disorders,Moderate,High,6,Herbal Therapy
+91,Female,Skin Disorders,Sedentary,Medium,9,Herbal Therapy
+21,Male,Skin Disorders,Active,Low,2,Herbal Therapy
+34,Female,Skin Disorders,Moderate,High,5,Herbal Therapy
+47,Male,Skin Disorders,Sedentary,Medium,8,Herbal Therapy
+60,Female,Skin Disorders,Active,Low,1,Herbal Therapy
+73,Male,Skin Disorders,Moderate,High,4,Herbal Therapy
+86,Female,Skin Disorders,Sedentary,Medium,7,Herbal Therapy
+99,Male,Skin Disorders,Active,Low,10,Herbal Therapy
+29,Female,Skin Disorders,Moderate,High,3,Herbal Therapy
+42,Male,Skin Disorders,Sedentary,Medium,6,Herbal Therapy
+55,Female,Skin Disorders,Active,Low,9,Herbal Therapy
+68,Male,Skin Disorders,Moderate,High,2,Herbal Therapy
+81,Female,Skin Disorders,Sedentary,Medium,5,Herbal Therapy
+94,Male,Skin Disorders,Active,Low,8,Herbal Therapy
+24,Female,Skin Disorders,Moderate,High,1,Herbal Therapy
+37,Male,Skin Disorders,Sedentary,Medium,4,Herbal Therapy
+50,Female,Skin Disorders,Active,Low,7,Herbal Therapy
+63,Male,Skin Disorders,Moderate,High,10,Herbal Therapy
+76,Female,Skin Disorders,Sedentary,Medium,3,Herbal Therapy
+89,Male,Skin Disorders,Active,Low,6,Herbal Therapy
+19,Female,Skin Disorders,Moderate,High,9,Herbal Therapy
+32,Male,Skin Disorders,Sedentary,Medium,2,Herbal Therapy
+45,Female,Skin Disorders,Active,Low,5,Herbal Therapy
+58,Male,Skin Disorders,Moderate,High,8,Herbal Therapy
+71,Female,Skin Disorders,Sedentary,Medium,1,Herbal Therapy
+84,Male,Skin Disorders,Active,Low,4,Herbal Therapy
+97,Female,Skin Disorders,Moderate,High,7,Herbal Therapy
+27,Male,Skin Disorders,Sedentary,Medium,10,Herbal Therapy
+40,Female,Skin Disorders,Active,Low,3,Herbal Therapy
+53,Male,Skin Disorders,Moderate,High,6,Herbal Therapy
+66,Female,Skin Disorders,Sedentary,Medium,9,Herbal Therapy
+79,Male,Skin Disorders,Active,Low,2,Herbal Therapy
+92,Female,Skin Disorders,Moderate,High,5,Herbal Therapy
+22,Male,Skin Disorders,Sedentary,Medium,8,Herbal Therapy
+35,Female,Skin Disorders,Active,Low,1,Herbal Therapy
+48,Male,Skin Disorders,Moderate,High,4,Herbal Therapy
+61,Female,Skin Disorders,Sedentary,Medium,7,Herbal Therapy
+74,Male,Skin Disorders,Active,Low,10,Herbal Therapy
+87,Female,Skin Disorders,Moderate,High,3,Herbal Therapy
+100,Male,Skin Disorders,Sedentary,Medium,6,Herbal Therapy
+30,Female,Skin Disorders,Active,Low,9,Herbal Therapy
+43,Male,Skin Disorders,Moderate,High,2,Herbal Therapy
+56,Female,Skin Disorders,Sedentary,Medium,5,Herbal Therapy
+69,Male,Skin Disorders,Active,Low,8,Herbal Therapy
+82,Female,Skin Disorders,Moderate,High,1,Herbal Therapy
+95,Male,Skin Disorders,Sedentary,Medium,4,Herbal Therapy
+25,Female,Skin Disorders,Active,Low,7,Herbal Therapy
+38,Male,Skin Disorders,Moderate,High,10,Herbal Therapy
+51,Female,Skin Disorders,Sedentary,Medium,3,Herbal Therapy
+64,Male,Skin Disorders,Active,Low,6,Herbal Therapy
+77,Female,Skin Disorders,Moderate,High,9,Herbal Therapy
+90,Male,Skin Disorders,Sedentary,Medium,2,Herbal Therapy
+20,Female,Skin Disorders,Active,Low,5,Herbal Therapy
+33,Male,Skin Disorders,Moderate,High,8,Herbal Therapy
+46,Female,Skin Disorders,Sedentary,Medium,1,Herbal Therapy
+59,Male,Skin Disorders,Active,Low,4,Herbal Therapy
+72,Female,Skin Disorders,Moderate,High,7,Herbal Therapy
+85,Male,Skin Disorders,Sedentary,Medium,10,Herbal Therapy
+98,Female,Skin Disorders,Active,Low,3,Herbal Therapy
+28,Male,Skin Disorders,Moderate,High,6,Herbal Therapy
+41,Female,Skin Disorders,Sedentary,Medium,9,Herbal Therapy
+54,Male,Skin Disorders,Active,Low,2,Herbal Therapy
+67,Female,Skin Disorders,Moderate,High,5,Herbal Therapy
+80,Male,Skin Disorders,Sedentary,Medium,8,Herbal Therapy
+93,Female,Skin Disorders,Active,Low,1,Herbal Therapy
+23,Male,Skin Disorders,Moderate,High,4,Herbal Therapy
+36,Female,Skin Disorders,Sedentary,Medium,7,Herbal Therapy
+49,Male,Skin Disorders,Active,Low,10,Herbal Therapy
+62,Female,Skin Disorders,Moderate,High,3,Herbal Therapy
+37,Female,Obesity,Active,Low,3,Diet Correction
+50,Male,Obesity,Moderate,High,6,Diet Correction
+63,Female,Obesity,Sedentary,Medium,9,Diet Correction
+76,Male,Obesity,Active,Low,2,Diet Correction
+89,Female,Obesity,Moderate,High,5,Diet Correction
+19,Male,Obesity,Sedentary,Medium,8,Diet Correction
+32,Female,Obesity,Active,Low,1,Diet Correction
+45,Male,Obesity,Moderate,High,4,Diet Correction
+58,Female,Obesity,Sedentary,Medium,7,Diet Correction
+71,Male,Obesity,Active,Low,10,Diet Correction
+84,Female,Obesity,Moderate,High,3,Diet Correction
+97,Male,Obesity,Sedentary,Medium,6,Diet Correction
+27,Female,Obesity,Active,Low,9,Diet Correction
+40,Male,Obesity,Moderate,High,2,Diet Correction
+53,Female,Obesity,Sedentary,Medium,5,Diet Correction
+66,Male,Obesity,Active,Low,8,Diet Correction
+79,Female,Obesity,Moderate,High,1,Diet Correction
+92,Male,Obesity,Sedentary,Medium,4,Diet Correction
+22,Female,Obesity,Active,Low,7,Diet Correction
+35,Male,Obesity,Moderate,High,10,Diet Correction
+48,Female,Obesity,Sedentary,Medium,3,Diet Correction
+61,Male,Obesity,Active,Low,6,Diet Correction
+74,Female,Obesity,Moderate,High,9,Diet Correction
+87,Male,Obesity,Sedentary,Medium,2,Diet Correction
+100,Female,Obesity,Active,Low,5,Diet Correction
+30,Male,Obesity,Moderate,High,8,Diet Correction
+43,Female,Obesity,Sedentary,Medium,1,Diet Correction
+56,Male,Obesity,Active,Low,4,Diet Correction
+69,Female,Obesity,Moderate,High,7,Diet Correction
+82,Male,Obesity,Sedentary,Medium,10,Diet Correction
+95,Female,Obesity,Active,Low,3,Diet Correction
+25,Male,Obesity,Moderate,High,6,Diet Correction
+38,Female,Obesity,Sedentary,Medium,9,Diet Correction
+51,Male,Obesity,Active,Low,2,Diet Correction
+64,Female,Obesity,Moderate,High,5,Diet Correction
+77,Male,Obesity,Sedentary,Medium,8,Diet Correction
+90,Female,Obesity,Active,Low,1,Diet Correction
+20,Male,Obesity,Moderate,High,4,Diet Correction
+33,Female,Obesity,Sedentary,Medium,7,Diet Correction
+46,Male,Obesity,Active,Low,10,Diet Correction
+59,Female,Obesity,Moderate,High,3,Diet Correction
+72,Male,Obesity,Sedentary,Medium,6,Diet Correction
+85,Female,Obesity,Active,Low,9,Diet Correction
+98,Male,Obesity,Moderate,High,2,Diet Correction
+28,Female,Obesity,Sedentary,Medium,5,Diet Correction
+41,Male,Obesity,Active,Low,8,Diet Correction
+54,Female,Obesity,Moderate,High,1,Diet Correction
+67,Male,Obesity,Sedentary,Medium,4,Diet Correction
+80,Female,Obesity,Active,Low,7,Diet Correction
+93,Male,Obesity,Moderate,High,10,Diet Correction
+23,Female,Obesity,Sedentary,Medium,3,Diet Correction
+36,Male,Obesity,Active,Low,6,Diet Correction
+49,Female,Obesity,Moderate,High,9,Diet Correction
+62,Male,Obesity,Sedentary,Medium,2,Diet Correction
+75,Female,Obesity,Active,Low,5,Diet Correction
+88,Male,Obesity,Moderate,High,8,Diet Correction
+18,Female,Obesity,Sedentary,Medium,1,Diet Correction
+31,Male,Obesity,Active,Low,4,Diet Correction
+44,Female,Obesity,Moderate,High,7,Diet Correction
+57,Male,Obesity,Sedentary,Medium,10,Diet Correction
+70,Female,Obesity,Active,Low,3,Diet Correction
+83,Male,Obesity,Moderate,High,6,Diet Correction
+96,Female,Obesity,Sedentary,Medium,9,Diet Correction
+26,Male,Obesity,Active,Low,2,Diet Correction
+39,Female,Obesity,Moderate,High,5,Diet Correction
+52,Male,Obesity,Sedentary,Medium,8,Diet Correction
+65,Female,Obesity,Active,Low,1,Diet Correction
+78,Male,Obesity,Moderate,High,4,Diet Correction
+91,Female,Obesity,Sedentary,Medium,7,Diet Correction
+21,Male,Obesity,Active,Low,10,Diet Correction
+34,Female,Obesity,Moderate,High,3,Diet Correction
+47,Male,Obesity,Sedentary,Medium,6,Diet Correction
+60,Female,Obesity,Active,Low,9,Diet Correction
+73,Male,Obesity,Moderate,High,2,Diet Correction
+86,Female,Obesity,Sedentary,Medium,5,Diet Correction
+99,Male,Obesity,Active,Low,8,Diet Correction
+29,Female,Obesity,Moderate,High,1,Diet Correction
+42,Male,Obesity,Sedentary,Medium,4,Diet Correction
+55,Female,Obesity,Active,Low,7,Diet Correction
+68,Male,Obesity,Moderate,High,10,Diet Correction
+81,Female,Obesity,Sedentary,Medium,3,Diet Correction
+94,Male,Obesity,Active,Low,6,Diet Correction
+24,Female,Obesity,Moderate,High,9,Diet Correction
+37,Male,Obesity,Sedentary,Medium,2,Diet Correction
+50,Female,Obesity,Active,Low,5,Diet Correction
+63,Male,Obesity,Moderate,High,8,Diet Correction
+76,Female,Obesity,Sedentary,Medium,1,Diet Correction
+89,Male,Obesity,Active,Low,4,Diet Correction
+19,Female,Obesity,Moderate,High,7,Diet Correction
+32,Male,Obesity,Sedentary,Medium,10,Diet Correction
+45,Female,Obesity,Active,Low,3,Diet Correction
+58,Male,Obesity,Moderate,High,6,Diet Correction
+71,Female,Obesity,Sedentary,Medium,9,Diet Correction
+84,Male,Obesity,Active,Low,2,Diet Correction
+97,Female,Obesity,Moderate,High,5,Diet Correction
+27,Male,Obesity,Sedentary,Medium,8,Diet Correction
+40,Female,Obesity,Active,Low,1,Diet Correction
+53,Male,Obesity,Moderate,High,4,Diet Correction
+66,Female,Obesity,Sedentary,Medium,7,Diet Correction
+79,Male,Obesity,Active,Low,10,Diet Correction
+54,Male,Diabetes,Sedentary,Medium,10,Diet Correction
+67,Female,Diabetes,Active,Low,3,Diet Correction
+80,Male,Diabetes,Moderate,High,6,Diet Correction
+93,Female,Diabetes,Sedentary,Medium,9,Diet Correction
+23,Male,Diabetes,Active,Low,2,Diet Correction
+36,Female,Diabetes,Moderate,High,5,Diet Correction
+49,Male,Diabetes,Sedentary,Medium,8,Diet Correction
+62,Female,Diabetes,Active,Low,1,Diet Correction
+75,Male,Diabetes,Moderate,High,4,Diet Correction
+88,Female,Diabetes,Sedentary,Medium,7,Diet Correction
+18,Male,Diabetes,Active,Low,10,Diet Correction
+31,Female,Diabetes,Moderate,High,3,Diet Correction
+44,Male,Diabetes,Sedentary,Medium,6,Diet Correction
+57,Female,Diabetes,Active,Low,9,Diet Correction
+70,Male,Diabetes,Moderate,High,2,Diet Correction
+83,Female,Diabetes,Sedentary,Medium,5,Diet Correction
+96,Male,Diabetes,Active,Low,8,Diet Correction
+26,Female,Diabetes,Moderate,High,1,Diet Correction
+39,Male,Diabetes,Sedentary,Medium,4,Diet Correction
+52,Female,Diabetes,Active,Low,7,Diet Correction
+65,Male,Diabetes,Moderate,High,10,Diet Correction
+78,Female,Diabetes,Sedentary,Medium,3,Diet Correction
+91,Male,Diabetes,Active,Low,6,Diet Correction
+21,Female,Diabetes,Moderate,High,9,Diet Correction
+34,Male,Diabetes,Sedentary,Medium,2,Diet Correction
+47,Female,Diabetes,Active,Low,5,Diet Correction
+60,Male,Diabetes,Moderate,High,8,Diet Correction
+73,Female,Diabetes,Sedentary,Medium,1,Diet Correction
+86,Male,Diabetes,Active,Low,4,Diet Correction
+99,Female,Diabetes,Moderate,High,7,Diet Correction
+29,Male,Diabetes,Sedentary,Medium,10,Diet Correction
+42,Female,Diabetes,Active,Low,3,Diet Correction
+55,Male,Diabetes,Moderate,High,6,Diet Correction
+68,Female,Diabetes,Sedentary,Medium,9,Diet Correction
+81,Male,Diabetes,Active,Low,2,Diet Correction
+94,Female,Diabetes,Moderate,High,5,Diet Correction
+24,Male,Diabetes,Sedentary,Medium,8,Diet Correction
+37,Female,Diabetes,Active,Low,1,Diet Correction
+50,Male,Diabetes,Moderate,High,4,Diet Correction
+63,Female,Diabetes,Sedentary,Medium,7,Diet Correction
+76,Male,Diabetes,Active,Low,10,Diet Correction
+89,Female,Diabetes,Moderate,High,3,Diet Correction
+19,Male,Diabetes,Sedentary,Medium,6,Diet Correction
+32,Female,Diabetes,Active,Low,9,Diet Correction
+45,Male,Diabetes,Moderate,High,2,Diet Correction
+58,Female,Diabetes,Sedentary,Medium,5,Diet Correction
+71,Male,Diabetes,Active,Low,8,Diet Correction
+84,Female,Diabetes,Moderate,High,1,Diet Correction
+97,Male,Diabetes,Sedentary,Medium,4,Diet Correction
+27,Female,Diabetes,Active,Low,7,Diet Correction
+40,Male,Diabetes,Moderate,High,10,Diet Correction
+53,Female,Diabetes,Sedentary,Medium,3,Diet Correction
+66,Male,Diabetes,Active,Low,6,Diet Correction
+79,Female,Diabetes,Moderate,High,9,Diet Correction
+92,Male,Diabetes,Sedentary,Medium,2,Diet Correction
+22,Female,Diabetes,Active,Low,5,Diet Correction
+35,Male,Diabetes,Moderate,High,8,Diet Correction
+48,Female,Diabetes,Sedentary,Medium,1,Diet Correction
+61,Male,Diabetes,Active,Low,4,Diet Correction
+74,Female,Diabetes,Moderate,High,7,Diet Correction
+87,Male,Diabetes,Sedentary,Medium,10,Diet Correction
+100,Female,Diabetes,Active,Low,3,Diet Correction
+30,Male,Diabetes,Moderate,High,6,Diet Correction
+43,Female,Diabetes,Sedentary,Medium,9,Diet Correction
+56,Male,Diabetes,Active,Low,2,Diet Correction
+69,Female,Diabetes,Moderate,High,5,Diet Correction
+82,Male,Diabetes,Sedentary,Medium,8,Diet Correction
+95,Female,Diabetes,Active,Low,1,Diet Correction
+25,Male,Diabetes,Moderate,High,4,Diet Correction
+38,Female,Diabetes,Sedentary,Medium,7,Diet Correction
+51,Male,Diabetes,Active,Low,10,Diet Correction
+64,Female,Diabetes,Moderate,High,3,Diet Correction
+77,Male,Diabetes,Sedentary,Medium,6,Diet Correction
+90,Female,Diabetes,Active,Low,9,Diet Correction
+20,Male,Diabetes,Moderate,High,2,Diet Correction
+33,Female,Diabetes,Sedentary,Medium,5,Diet Correction
+46,Male,Diabetes,Active,Low,8,Diet Correction
+59,Female,Diabetes,Moderate,High,1,Diet Correction
+72,Male,Diabetes,Sedentary,Medium,4,Diet Correction
+85,Female,Diabetes,Active,Low,7,Diet Correction
+98,Male,Diabetes,Moderate,High,10,Diet Correction
+28,Female,Diabetes,Sedentary,Medium,3,Diet Correction
+41,Male,Diabetes,Active,Low,6,Diet Correction
+54,Female,Diabetes,Moderate,High,9,Diet Correction
+67,Male,Diabetes,Sedentary,Medium,2,Diet Correction
+80,Female,Diabetes,Active,Low,5,Diet Correction
+93,Male,Diabetes,Moderate,High,8,Diet Correction
+23,Female,Diabetes,Sedentary,Medium,1,Diet Correction
+36,Male,Diabetes,Active,Low,4,Diet Correction
+49,Female,Diabetes,Moderate,High,7,Diet Correction
+62,Male,Diabetes,Sedentary,Medium,10,Diet Correction
+75,Female,Diabetes,Active,Low,3,Diet Correction
+88,Male,Diabetes,Moderate,High,6,Diet Correction
+18,Female,Diabetes,Sedentary,Medium,9,Diet Correction
+31,Male,Diabetes,Active,Low,2,Diet Correction
+44,Female,Diabetes,Moderate,High,5,Diet Correction
+57,Male,Diabetes,Sedentary,Medium,8,Diet Correction
+70,Female,Diabetes,Active,Low,1,Diet Correction
+83,Male,Diabetes,Moderate,High,4,Diet Correction
+96,Female,Diabetes,Sedentary,Medium,7,Diet Correction
+71,Female,Migraine,Moderate,High,7,Nasya
+84,Male,Migraine,Sedentary,Medium,10,Nasya
+97,Female,Migraine,Active,Low,3,Nasya
+27,Male,Migraine,Moderate,High,6,Nasya
+40,Female,Migraine,Sedentary,Medium,9,Nasya
+53,Male,Migraine,Active,Low,2,Nasya
+66,Female,Migraine,Moderate,High,5,Nasya
+79,Male,Migraine,Sedentary,Medium,8,Nasya
+92,Female,Migraine,Active,Low,1,Nasya
+22,Male,Migraine,Moderate,High,4,Nasya
+35,Female,Migraine,Sedentary,Medium,7,Nasya
+48,Male,Migraine,Active,Low,10,Nasya
+61,Female,Migraine,Moderate,High,3,Nasya
+74,Male,Migraine,Sedentary,Medium,6,Nasya
+87,Female,Migraine,Active,Low,9,Nasya
+100,Male,Migraine,Moderate,High,2,Nasya
+30,Female,Migraine,Sedentary,Medium,5,Nasya
+43,Male,Migraine,Active,Low,8,Nasya
+56,Female,Migraine,Moderate,High,1,Nasya
+69,Male,Migraine,Sedentary,Medium,4,Nasya
+82,Female,Migraine,Active,Low,7,Nasya
+95,Male,Migraine,Moderate,High,10,Nasya
+25,Female,Migraine,Sedentary,Medium,3,Nasya
+38,Male,Migraine,Active,Low,6,Nasya
+51,Female,Migraine,Moderate,High,9,Nasya
+64,Male,Migraine,Sedentary,Medium,2,Nasya
+77,Female,Migraine,Active,Low,5,Nasya
+90,Male,Migraine,Moderate,High,8,Nasya
+20,Female,Migraine,Sedentary,Medium,1,Nasya
+33,Male,Migraine,Active,Low,4,Nasya
+46,Female,Migraine,Moderate,High,7,Nasya
+59,Male,Migraine,Sedentary,Medium,10,Nasya
+72,Female,Migraine,Active,Low,3,Nasya
+85,Male,Migraine,Moderate,High,6,Nasya
+98,Female,Migraine,Sedentary,Medium,9,Nasya
+28,Male,Migraine,Active,Low,2,Nasya
+41,Female,Migraine,Moderate,High,5,Nasya
+54,Male,Migraine,Sedentary,Medium,8,Nasya
+67,Female,Migraine,Active,Low,1,Nasya
+80,Male,Migraine,Moderate,High,4,Nasya
+93,Female,Migraine,Sedentary,Medium,7,Nasya
+23,Male,Migraine,Active,Low,10,Nasya
+36,Female,Migraine,Moderate,High,3,Nasya
+49,Male,Migraine,Sedentary,Medium,6,Nasya
+62,Female,Migraine,Active,Low,9,Nasya
+75,Male,Migraine,Moderate,High,2,Nasya
+88,Female,Migraine,Sedentary,Medium,5,Nasya
+18,Male,Migraine,Active,Low,8,Nasya
+31,Female,Migraine,Moderate,High,1,Nasya
+44,Male,Migraine,Sedentary,Medium,4,Nasya
+57,Female,Migraine,Active,Low,7,Nasya
+70,Male,Migraine,Moderate,High,10,Nasya
+83,Female,Migraine,Sedentary,Medium,3,Nasya
+96,Male,Migraine,Active,Low,6,Nasya
+26,Female,Migraine,Moderate,High,9,Nasya
+39,Male,Migraine,Sedentary,Medium,2,Nasya
+52,Female,Migraine,Active,Low,5,Nasya
+65,Male,Migraine,Moderate,High,8,Nasya
+78,Female,Migraine,Sedentary,Medium,1,Nasya
+91,Male,Migraine,Active,Low,4,Nasya
+21,Female,Migraine,Moderate,High,7,Nasya
+34,Male,Migraine,Sedentary,Medium,10,Nasya
+47,Female,Migraine,Active,Low,3,Nasya
+60,Male,Migraine,Moderate,High,6,Nasya
+73,Female,Migraine,Sedentary,Medium,9,Nasya
+86,Male,Migraine,Active,Low,2,Nasya
+99,Female,Migraine,Moderate,High,5,Nasya
+29,Male,Migraine,Sedentary,Medium,8,Nasya
+42,Female,Migraine,Active,Low,1,Nasya
+55,Male,Migraine,Moderate,High,4,Nasya
+68,Female,Migraine,Sedentary,Medium,7,Nasya
+81,Male,Migraine,Active,Low,10,Nasya
+94,Female,Migraine,Moderate,High,3,Nasya
+24,Male,Migraine,Sedentary,Medium,6,Nasya
+37,Female,Migraine,Active,Low,9,Nasya
+50,Male,Migraine,Moderate,High,2,Nasya
+63,Female,Migraine,Sedentary,Medium,5,Nasya
+76,Male,Migraine,Active,Low,8,Nasya
+89,Female,Migraine,Moderate,High,1,Nasya
+19,Male,Migraine,Sedentary,Medium,4,Nasya
+32,Female,Migraine,Active,Low,7,Nasya
+45,Male,Migraine,Moderate,High,10,Nasya
+58,Female,Migraine,Sedentary,Medium,3,Nasya
+71,Male,Migraine,Active,Low,6,Nasya
+84,Female,Migraine,Moderate,High,9,Nasya
+97,Male,Migraine,Sedentary,Medium,2,Nasya
+27,Female,Migraine,Active,Low,5,Nasya
+40,Male,Migraine,Moderate,High,8,Nasya
+53,Female,Migraine,Sedentary,Medium,1,Nasya
+66,Male,Migraine,Active,Low,4,Nasya
+79,Female,Migraine,Moderate,High,7,Nasya
+92,Male,Migraine,Sedentary,Medium,10,Nasya
+22,Female,Migraine,Active,Low,3,Nasya
+35,Male,Migraine,Moderate,High,6,Nasya
+48,Female,Migraine,Sedentary,Medium,9,Nasya
+61,Male,Migraine,Active,Low,2,Nasya
+74,Female,Migraine,Moderate,High,5,Nasya
+87,Male,Migraine,Sedentary,Medium,8,Nasya
+100,Female,Migraine,Active,Low,1,Nasya
+30,Male,Migraine,Moderate,High,4,Nasya
+88,Male,Back Pain,Active,Low,4,Abhyanga
+18,Female,Back Pain,Moderate,High,7,Abhyanga
+31,Male,Back Pain,Sedentary,Medium,10,Abhyanga
+44,Female,Back Pain,Active,Low,3,Abhyanga
+57,Male,Back Pain,Moderate,High,6,Abhyanga
+70,Female,Back Pain,Sedentary,Medium,9,Abhyanga
+83,Male,Back Pain,Active,Low,2,Abhyanga
+96,Female,Back Pain,Moderate,High,5,Abhyanga
+26,Male,Back Pain,Sedentary,Medium,8,Abhyanga
+39,Female,Back Pain,Active,Low,1,Abhyanga
+52,Male,Back Pain,Moderate,High,4,Abhyanga
+65,Female,Back Pain,Sedentary,Medium,7,Abhyanga
+78,Male,Back Pain,Active,Low,10,Abhyanga
+91,Female,Back Pain,Moderate,High,3,Abhyanga
+21,Male,Back Pain,Sedentary,Medium,6,Abhyanga
+34,Female,Back Pain,Active,Low,9,Abhyanga
+47,Male,Back Pain,Moderate,High,2,Abhyanga
+60,Female,Back Pain,Sedentary,Medium,5,Abhyanga
+73,Male,Back Pain,Active,Low,8,Abhyanga
+86,Female,Back Pain,Moderate,High,1,Abhyanga
+99,Male,Back Pain,Sedentary,Medium,4,Abhyanga
+29,Female,Back Pain,Active,Low,7,Abhyanga
+42,Male,Back Pain,Moderate,High,10,Abhyanga
+55,Female,Back Pain,Sedentary,Medium,3,Abhyanga
+68,Male,Back Pain,Active,Low,6,Abhyanga
+81,Female,Back Pain,Moderate,High,9,Abhyanga
+94,Male,Back Pain,Sedentary,Medium,2,Abhyanga
+24,Female,Back Pain,Active,Low,5,Abhyanga
+37,Male,Back Pain,Moderate,High,8,Abhyanga
+50,Female,Back Pain,Sedentary,Medium,1,Abhyanga
+63,Male,Back Pain,Active,Low,4,Abhyanga
+76,Female,Back Pain,Moderate,High,7,Abhyanga
+89,Male,Back Pain,Sedentary,Medium,10,Abhyanga
+19,Female,Back Pain,Active,Low,3,Abhyanga
+32,Male,Back Pain,Moderate,High,6,Abhyanga
+45,Female,Back Pain,Sedentary,Medium,9,Abhyanga
+58,Male,Back Pain,Active,Low,2,Abhyanga
+71,Female,Back Pain,Moderate,High,5,Abhyanga
+84,Male,Back Pain,Sedentary,Medium,8,Abhyanga
+97,Female,Back Pain,Active,Low,1,Abhyanga
+27,Male,Back Pain,Moderate,High,4,Abhyanga
+40,Female,Back Pain,Sedentary,Medium,7,Abhyanga
+53,Male,Back Pain,Active,Low,10,Abhyanga
+66,Female,Back Pain,Moderate,High,3,Abhyanga
+79,Male,Back Pain,Sedentary,Medium,6,Abhyanga
+92,Female,Back Pain,Active,Low,9,Abhyanga
+22,Male,Back Pain,Moderate,High,2,Abhyanga
+35,Female,Back Pain,Sedentary,Medium,5,Abhyanga
+48,Male,Back Pain,Active,Low,8,Abhyanga
+61,Female,Back Pain,Moderate,High,1,Abhyanga
+74,Male,Back Pain,Sedentary,Medium,4,Abhyanga
+87,Female,Back Pain,Active,Low,7,Abhyanga
+100,Male,Back Pain,Moderate,High,10,Abhyanga
+30,Female,Back Pain,Sedentary,Medium,3,Abhyanga
+43,Male,Back Pain,Active,Low,6,Abhyanga
+56,Female,Back Pain,Moderate,High,9,Abhyanga
+69,Male,Back Pain,Sedentary,Medium,2,Abhyanga
+82,Female,Back Pain,Active,Low,5,Abhyanga
+95,Male,Back Pain,Moderate,High,8,Abhyanga
+25,Female,Back Pain,Sedentary,Medium,1,Abhyanga
+38,Male,Back Pain,Active,Low,4,Abhyanga
+51,Female,Back Pain,Moderate,High,7,Abhyanga
+64,Male,Back Pain,Sedentary,Medium,10,Abhyanga
+77,Female,Back Pain,Active,Low,3,Abhyanga
+90,Male,Back Pain,Moderate,High,6,Abhyanga
+20,Female,Back Pain,Sedentary,Medium,9,Abhyanga
+33,Male,Back Pain,Active,Low,2,Abhyanga
+46,Female,Back Pain,Moderate,High,5,Abhyanga
+59,Male,Back Pain,Sedentary,Medium,8,Abhyanga
+72,Female,Back Pain,Active,Low,1,Abhyanga
+85,Male,Back Pain,Moderate,High,4,Abhyanga
+98,Female,Back Pain,Sedentary,Medium,7,Abhyanga
+28,Male,Back Pain,Active,Low,10,Abhyanga
+41,Female,Back Pain,Moderate,High,3,Abhyanga
+54,Male,Back Pain,Sedentary,Medium,6,Abhyanga
+67,Female,Back Pain,Active,Low,9,Abhyanga
+80,Male,Back Pain,Moderate,High,2,Abhyanga
+93,Female,Back Pain,Sedentary,Medium,5,Abhyanga
+23,Male,Back Pain,Active,Low,8,Abhyanga
+36,Female,Back Pain,Moderate,High,1,Abhyanga
+49,Male,Back Pain,Sedentary,Medium,4,Abhyanga
+62,Female,Back Pain,Active,Low,7,Abhyanga
+75,Male,Back Pain,Moderate,High,10,Abhyanga
+88,Female,Back Pain,Sedentary,Medium,3,Abhyanga
+18,Male,Back Pain,Active,Low,6,Abhyanga
+31,Female,Back Pain,Moderate,High,9,Abhyanga
+44,Male,Back Pain,Sedentary,Medium,2,Abhyanga
+57,Female,Back Pain,Active,Low,5,Abhyanga
+70,Male,Back Pain,Moderate,High,8,Abhyanga
+83,Female,Back Pain,Sedentary,Medium,1,Abhyanga
+96,Male,Back Pain,Active,Low,4,Abhyanga
+26,Female,Back Pain,Moderate,High,7,Abhyanga
+39,Male,Back Pain,Sedentary,Medium,10,Abhyanga
+52,Female,Back Pain,Active,Low,3,Abhyanga
+65,Male,Back Pain,Moderate,High,6,Abhyanga
+78,Female,Back Pain,Sedentary,Medium,9,Abhyanga
+91,Male,Back Pain,Active,Low,2,Abhyanga
+21,Female,Back Pain,Moderate,High,5,Abhyanga
+34,Male,Back Pain,Sedentary,Medium,8,Abhyanga
+47,Female,Back Pain,Active,Low,1,Abhyanga

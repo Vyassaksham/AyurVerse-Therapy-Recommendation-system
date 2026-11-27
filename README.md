@@ -1,2 +1,0 @@
-# AyurVerse-Therapy-Recommendation-system
-
