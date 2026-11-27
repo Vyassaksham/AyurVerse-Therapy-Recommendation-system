@@ -85,15 +85,7 @@ app.use(
 app.use(passport.initialize());
 app.use(passport.session());
 
-//  MIDDLEWARE FOR DEBUGGING 
-app.use((req, res, next) => {
-  console.log(`${req.method} ${req.path}`, {
-    body: req.body,
-    user: req.user ? { id: req.user.id, email: req.user.email } : null,
-    session: req.session.id,
-  });
-  next();
-});
+// Do not log request bodies, passwords, or session identifiers.
 
 // ROUTES 
 app.get("/", (req, res) => {
@@ -145,12 +137,17 @@ const initServer = async () => {
     await sequelize.authenticate();
     console.log(" MySQL connected successfully");
 
-    // Sync database models - 
-    await sequelize.sync({
-      force: false,
-      alter: false
-    });
-    console.log(" Database synced");
+    // Production schema is already provisioned; avoid table checks on every Vercel cold start.
+    // Run sync locally only. Use migrations for production schema changes.
+    if (process.env.VERCEL) {
+      console.log("Skipping Sequelize sync on Vercel.");
+    } else {
+      await sequelize.sync({
+        force: false,
+        alter: false
+      });
+      console.log(" Database synced");
+    }
 
     // Test model associations
     console.log(" Testing model associations...");
