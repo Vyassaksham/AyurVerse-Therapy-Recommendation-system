@@ -36,17 +36,30 @@ app.use(helmet({
   crossOriginEmbedderPolicy: false, // Disable for development
 }));
 
-// Enhanced CORS configuration
+// Enhanced CORS configuration for local, production, and this project's Vercel previews
+const allowedOrigins = [
+  "http://localhost:3000",
+  "http://127.0.0.1:3000",
+  "https://ayurverse-frontend.vercel.app",
+  process.env.FRONTEND_URL,
+].filter(Boolean);
+
 app.use(
   cors({
-    origin: [
-      "http://localhost:3000", 
-      "http://127.0.0.1:3000",
-      process.env.FRONTEND_URL || "http://localhost:3000"
-    ],
+    origin: (origin, callback) => {
+      // Allow non-browser requests without an Origin header (health checks, server-to-server).
+      if (!origin) return callback(null, true);
+
+      const isAllowed =
+        allowedOrigins.includes(origin) ||
+        /^https:\/\/ayurverse-frontend-[a-z0-9]+-vyas-saksham\.vercel\.app$/.test(origin);
+
+      if (isAllowed) return callback(null, true);
+      return callback(new Error("Origin not allowed by CORS"));
+    },
     credentials: true,
-    methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
-    allowedHeaders: ['Content-Type', 'Authorization', 'X-Requested-With'],
+    methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
+    allowedHeaders: ["Content-Type", "Authorization", "X-Requested-With"],
   })
 );
 
