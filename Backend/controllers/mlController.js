@@ -107,7 +107,21 @@ export const predictTherapy = async (req, res) => {
       signal: AbortSignal.timeout(15000),
     });
 
-    const prediction = await response.json();
+    const responseBody = await response.text();
+    let prediction;
+
+    try {
+      prediction = JSON.parse(responseBody);
+    } catch {
+      console.error('ML service returned a non-JSON response:', {
+        status: response.status,
+        body: responseBody.slice(0, 500),
+      });
+
+      return res.status(502).json({
+        error: `ML service returned HTTP ${response.status} without a JSON response.`,
+      });
+    }
 
     if (!response.ok) {
       return res.status(response.status).json({
